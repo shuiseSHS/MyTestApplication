@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#FF000000"/>
+
+
+    <EditText
+        android:id="@+id/phoneSearchKeyword"
+        android:layout_width="match_parent"
+        android:layout_height="27dp"
+        android:layout_below="@id/title"
+        android:background="@drawable/round_rect_green_search"
+        android:drawablePadding="10dp"
+        android:ellipsize="end"
+        android:imeOptions="actionSearch"
+        android:paddingBottom="2dip"
+        android:paddingLeft="10dp"
+        android:paddingRight="30dip"
+        android:paddingTop="2dip"
+        android:singleLine="true"
+        android:textColor="#c8c8c8"
+        android:textColorHint="#999999"
+        android:textSize="14sp"
+        android:transitionName="bbbb"/>
+
+    <Button
+        android:id="@+id/btn_tran"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="XXXX"
+        android:transitionName="XXXX"/>
+
+    <TextView
+        android:id="@+id/search_hotword_rank_icon"
+        android:layout_width="15dp"
+        android:layout_height="15dp"
+        android:layout_below="@id/phoneSearchKeyword"
+        android:layout_margin="10dp"
+        android:layout_marginLeft="12dp"
+        android:background="@drawable/round_rect_hot1"
+        android:gravity="center"
+        android:includeFontPadding="false"
+        android:text="10"
+        android:textColor="#FFFFFFFF"
+        android:textSize="12sp"/>
+
+    <TextView
+        android:id="@+id/search_hotword_rank_icon1"
+        android:layout_width="15dp"
+        android:layout_height="15dp"
+        android:layout_below="@id/phoneSearchKeyword"
+        android:layout_margin="10dp"
+        android:layout_marginLeft="12dp"
+        android:layout_toRightOf="@id/search_hotword_rank_icon"
+        android:background="@drawable/round_rect_hot0"
+        android:gravity="center"
+        android:text="10"
+        android:textColor="#FFFFFFFF"
+        android:textSize="12sp"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_alignParentBottom="true"
+        android:background="#FFFF0000">
+
+        <ImageView
+            android:id="@+id/img1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <ImageView
+            android:id="@+id/img2"
+            android:layout_width="100dp"
+            android:layout_height="200dp"
+            android:layout_toRightOf="@id/img1"
+            android:background="#FF00FF00"/>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/img2"
+            android:layout_alignTop="@id/img2"
+            android:layout_toRightOf="@id/img2">
+
+            <TextView
+                android:id="@+id/meta1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:id="@+id/meta2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/meta1"/>
+
+            <TextView
+                android:id="@+id/meta3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/meta2"/>
+
+            <TextView
+                android:id="@+id/meta4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/meta3"/>
+
+            <TextView
+                android:id="@+id/meta5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/meta4"/>
+
+            <TextView
+                android:id="@+id/button"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_alignParentBottom="true"
+                android:background="#FF000000"/>
+        </RelativeLayout>
+
+
+    </RelativeLayout>
+
+</RelativeLayout>

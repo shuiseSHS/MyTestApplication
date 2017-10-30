@@ -1,0 +1,1302 @@
+[
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_big_media_narrow.xml",
+        "source": "C:\\Users\\shisong\\.android\\build-cache\\4432771aebefee61aa7aa09695315c6e4384274f\\output\\res\\layout\\notification_template_big_media_narrow.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\layout\\media_projection.xml",
+        "source": "F:\\qiyi_git\\Test\\apiDemos\\src\\main\\res\\layout\\media_projection.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\layout\\baseline_nested_2.xml",
+        "source": "F:\\qiyi_git\\Test\\apiDemos\\src\\main\\res\\layout\\baseline_nested_2.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\layout\\visibility_1.xml",
+        "source": "F:\\qiyi_git\\Test\\apiDemos\\src\\main\\res\\layout\\visibility_1.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_tabs_fragment.xml",
+        "source": "F:\\qiyi_git\\Test\\apiDemos\\src\\main\\res\\layout\\fragment_tabs_fragment.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\layout\\linear_layout_9.xml",
+        "source": "F:\\qiyi_git\\Test\\apiDemos\\src\\main\\res\\layout\\linear_layout_9.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\layout\\notify_with_text.xml",
+        "source": "F:\\qiyi_git\\Test\\apiDemos\\src\\main\\res\\layout\\notify_with_text.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\layout\\cast_intro_overlay.xml",
+        "source": "C:\\Users\\shisong\\.android\\build-cache\\39a741ce9bc1798f10e81c3748e7142d3c7b88fe\\output\\res\\layout\\cast_intro_overlay.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\layout\\animations_main_screen.xml",
+        "source": "F:\\qiyi_git\\Test\\apiDemos\\src\\main\\res\\layout\\animations_main_screen.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\layout\\image_view_1.xml",
+        "source": "F:\\qiyi_git\\Test\\apiDemos\\src\\main\\res\\layout\\image_view_1.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\layout\\table_layout_6.xml",
+        "source": "F:\\qiyi_git\\Test\\apiDemos\\src\\main\\res\\layout\\table_layout_6.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\layout\\drag_layout.xml",
+        "source": "F:\\qiyi_git\\Test\\apiDemos\\src\\main\\res\\layout\\drag_layout.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\layout\\animation_loading.xml",
+        "source": "F:\\qiyi_git\\Test\\apiDemos\\src\\main\\res\\layout\\animation_loading.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\layout\\searchview_actionbar.xml",
+        "source": "F:\\qiyi_git\\Test\\apiDemos\\src\\main\\res\\layout\\searchview_actionbar.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\layout\\action_bar_display_options.xml",
+        "source": "F:\\qiyi_git\\Test\\apiDemos\\src\\main\\res\\layout\\action_bar_display_options.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\layout\\save_restore_state.xml",
+        "source": "F:\\qiyi_git\\Test\\apiDemos\\src\\main\\res\\layout\\save_restore_state.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\layout\\resources_smallest_width_row.xml",
+        "source": "F:\\qiyi_git\\Test\\apiDemos\\src\\main\\res\\layout\\resources_smallest_width_row.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\layout\\transition_scene1.xml",
+        "source": "F:\\qiyi_git\\Test\\apiDemos\\src\\main\\res\\layout\\transition_scene1.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\layout\\scrollbar1.xml",
+        "source": "F:\\qiyi_git\\Test\\apiDemos\\src\\main\\res\\layout\\scrollbar1.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\layout\\abc_expanded_menu_layout.xml",
+        "source": "C:\\Users\\shisong\\.android\\build-cache\\4432771aebefee61aa7aa09695315c6e4384274f\\output\\res\\layout\\abc_expanded_menu_layout.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\layout\\incoming_message.xml",
+        "source": "F:\\qiyi_git\\Test\\apiDemos\\src\\main\\res\\layout\\incoming_message.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_radio.xml",
+        "source": "C:\\Users\\shisong\\.android\\build-cache\\4432771aebefee61aa7aa09695315c6e4384274f\\output\\res\\layout\\abc_list_menu_item_radio.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\layout\\table_layout_11.xml",
+        "source": "F:\\qiyi_git\\Test\\apiDemos\\src\\main\\res\\layout\\table_layout_11.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\layout\\abc_dialog_title_material.xml",
+        "source": "C:\\Users\\shisong\\.android\\build-cache\\4432771aebefee61aa7aa09695315c6e4384274f\\output\\res\\layout\\abc_dialog_title_material.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\layout\\motogp_stat_item.xml",
+        "source": "F:\\qiyi_git\\Test\\apiDemos\\src\\main\\res\\layout\\motogp_stat_item.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\layout\\screen_orientation.xml",
+        "source": "F:\\qiyi_git\\Test\\apiDemos\\src\\main\\res\\layout\\screen_orientation.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\layout\\seekbar_1.xml",
+        "source": "F:\\qiyi_git\\Test\\apiDemos\\src\\main\\res\\layout\\seekbar_1.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\layout\\scrollbar3.xml",
+        "source": "F:\\qiyi_git\\Test\\apiDemos\\src\\main\\res\\layout\\scrollbar3.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\layout\\animator_events.xml",
+        "source": "F:\\qiyi_git\\Test\\apiDemos\\src\\main\\res\\layout\\animator_events.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\layout\\tasklist_row.xml",
+        "source": "F:\\qiyi_git\\Test\\apiDemos\\src\\main\\res\\layout\\tasklist_row.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\layout\\appwidget_configure.xml",
+        "source": "F:\\qiyi_git\\Test\\apiDemos\\src\\main\\res\\layout\\appwidget_configure.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\layout\\notifying_controller.xml",
+        "source": "F:\\qiyi_git\\Test\\apiDemos\\src\\main\\res\\layout\\notifying_controller.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\layout\\image_block.xml",
+        "source": "F:\\qiyi_git\\Test\\apiDemos\\src\\main\\res\\layout\\image_block.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\layout\\hello_world.xml",
+        "source": "F:\\qiyi_git\\Test\\apiDemos\\src\\main\\res\\layout\\hello_world.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\layout\\notification_media_action.xml",
+        "source": "C:\\Users\\shisong\\.android\\build-cache\\4432771aebefee61aa7aa09695315c6e4384274f\\output\\res\\layout\\notification_media_action.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\layout\\remote_service_controller.xml",
+        "source": "F:\\qiyi_git\\Test\\apiDemos\\src\\main\\res\\layout\\remote_service_controller.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\layout\\search_view.xml",
+        "source": "F:\\qiyi_git\\Test\\apiDemos\\src\\main\\res\\layout\\search_view.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\layout\\custom_title.xml",
+        "source": "F:\\qiyi_git\\Test\\apiDemos\\src\\main\\res\\layout\\custom_title.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\layout\\content_browser.xml",
+        "source": "F:\\qiyi_git\\Test\\apiDemos\\src\\main\\res\\layout\\content_browser.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_layout.xml",
+        "source": "C:\\Users\\shisong\\.android\\build-cache\\4432771aebefee61aa7aa09695315c6e4384274f\\output\\res\\layout\\abc_list_menu_item_layout.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_layout.xml",
+        "source": "C:\\Users\\shisong\\.android\\build-cache\\4432771aebefee61aa7aa09695315c6e4384274f\\output\\res\\layout\\abc_action_menu_layout.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\layout\\webview_1.xml",
+        "source": "F:\\qiyi_git\\Test\\apiDemos\\src\\main\\res\\layout\\webview_1.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\layout\\animation_2.xml",
+        "source": "F:\\qiyi_git\\Test\\apiDemos\\src\\main\\res\\layout\\animation_2.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\layout\\baseline_7.xml",
+        "source": "F:\\qiyi_git\\Test\\apiDemos\\src\\main\\res\\layout\\baseline_7.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\layout\\layout_animations.xml",
+        "source": "F:\\qiyi_git\\Test\\apiDemos\\src\\main\\res\\layout\\layout_animations.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\layout\\autocomplete_1.xml",
+        "source": "F:\\qiyi_git\\Test\\apiDemos\\src\\main\\res\\layout\\autocomplete_1.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\layout\\linear_layout_7.xml",
+        "source": "F:\\qiyi_git\\Test\\apiDemos\\src\\main\\res\\layout\\linear_layout_7.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\layout\\progressbar_3.xml",
+        "source": "F:\\qiyi_git\\Test\\apiDemos\\src\\main\\res\\layout\\progressbar_3.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\layout\\mr_chooser_dialog.xml",
+        "source": "C:\\Users\\shisong\\.android\\build-cache\\a749e24ceac9a3f6d0e696df8baf0baf8a8e699e\\output\\res\\layout\\mr_chooser_dialog.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\layout\\activity_recreate.xml",
+        "source": "F:\\qiyi_git\\Test\\apiDemos\\src\\main\\res\\layout\\activity_recreate.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view_list_item.xml",
+        "source": "C:\\Users\\shisong\\.android\\build-cache\\4432771aebefee61aa7aa09695315c6e4384274f\\output\\res\\layout\\abc_activity_chooser_view_list_item.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\layout\\table_layout_8.xml",
+        "source": "F:\\qiyi_git\\Test\\apiDemos\\src\\main\\res\\layout\\table_layout_8.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\layout\\foreground_dispatch.xml",
+        "source": "F:\\qiyi_git\\Test\\apiDemos\\src\\main\\res\\layout\\foreground_dispatch.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\layout\\mr_volume_control.xml",
+        "source": "C:\\Users\\shisong\\.android\\build-cache\\a749e24ceac9a3f6d0e696df8baf0baf8a8e699e\\output\\res\\layout\\mr_volume_control.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\layout\\animation_seeking.xml",
+        "source": "F:\\qiyi_git\\Test\\apiDemos\\src\\main\\res\\layout\\animation_seeking.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\layout\\alarm_controller.xml",
+        "source": "F:\\qiyi_git\\Test\\apiDemos\\src\\main\\res\\layout\\alarm_controller.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\layout\\image_button_1.xml",
+        "source": "F:\\qiyi_git\\Test\\apiDemos\\src\\main\\res\\layout\\image_button_1.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\layout\\system_ui_modes.xml",
+        "source": "F:\\qiyi_git\\Test\\apiDemos\\src\\main\\res\\layout\\system_ui_modes.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\layout\\table_layout_2.xml",
+        "source": "F:\\qiyi_git\\Test\\apiDemos\\src\\main\\res\\layout\\table_layout_2.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\layout\\local_sample.xml",
+        "source": "F:\\qiyi_git\\Test\\apiDemos\\src\\main\\res\\layout\\local_sample.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\layout\\animator_custom_evaluator.xml",
+        "source": "F:\\qiyi_git\\Test\\apiDemos\\src\\main\\res\\layout\\animator_custom_evaluator.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\layout\\linear_layout_5.xml",
+        "source": "F:\\qiyi_git\\Test\\apiDemos\\src\\main\\res\\layout\\linear_layout_5.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\layout\\scroll_view_1.xml",
+        "source": "F:\\qiyi_git\\Test\\apiDemos\\src\\main\\res\\layout\\scroll_view_1.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view.xml",
+        "source": "C:\\Users\\shisong\\.android\\build-cache\\4432771aebefee61aa7aa09695315c6e4384274f\\output\\res\\layout\\abc_activity_chooser_view.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\layout\\progressbar_1.xml",
+        "source": "F:\\qiyi_git\\Test\\apiDemos\\src\\main\\res\\layout\\progressbar_1.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\layout\\rotating_list.xml",
+        "source": "F:\\qiyi_git\\Test\\apiDemos\\src\\main\\res\\layout\\rotating_list.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\layout\\layout_animation_6.xml",
+        "source": "F:\\qiyi_git\\Test\\apiDemos\\src\\main\\res\\layout\\layout_animation_6.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\layout\\horizontal_scroll_view1.xml",
+        "source": "F:\\qiyi_git\\Test\\apiDemos\\src\\main\\res\\layout\\horizontal_scroll_view1.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\layout\\autocomplete_3.xml",
+        "source": "F:\\qiyi_git\\Test\\apiDemos\\src\\main\\res\\layout\\autocomplete_3.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\layout\\transition.xml",
+        "source": "F:\\qiyi_git\\Test\\apiDemos\\src\\main\\res\\layout\\transition.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\layout\\action_bar_display_options_custom.xml",
+        "source": "F:\\qiyi_git\\Test\\apiDemos\\src\\main\\res\\layout\\action_bar_display_options_custom.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\layout\\isolated_service_controller.xml",
+        "source": "F:\\qiyi_git\\Test\\apiDemos\\src\\main\\res\\layout\\isolated_service_controller.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\layout\\date_widgets_example_1.xml",
+        "source": "F:\\qiyi_git\\Test\\apiDemos\\src\\main\\res\\layout\\date_widgets_example_1.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\layout\\secure_window_activity.xml",
+        "source": "F:\\qiyi_git\\Test\\apiDemos\\src\\main\\res\\layout\\secure_window_activity.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\layout\\shadow_card_stack.xml",
+        "source": "F:\\qiyi_git\\Test\\apiDemos\\src\\main\\res\\layout\\shadow_card_stack.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\layout\\game_controller_input_text_column.xml",
+        "source": "F:\\qiyi_git\\Test\\apiDemos\\src\\main\\res\\layout\\game_controller_input_text_column.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\layout\\styled_text.xml",
+        "source": "F:\\qiyi_git\\Test\\apiDemos\\src\\main\\res\\layout\\styled_text.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\layout\\focus_2.xml",
+        "source": "F:\\qiyi_git\\Test\\apiDemos\\src\\main\\res\\layout\\focus_2.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_multichoice_material.xml",
+        "source": "C:\\Users\\shisong\\.android\\build-cache\\4432771aebefee61aa7aa09695315c6e4384274f\\output\\res\\layout\\select_dialog_multichoice_material.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\layout\\incoming_message_view.xml",
+        "source": "F:\\qiyi_git\\Test\\apiDemos\\src\\main\\res\\layout\\incoming_message_view.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\layout\\secure_view_overlay.xml",
+        "source": "F:\\qiyi_git\\Test\\apiDemos\\src\\main\\res\\layout\\secure_view_overlay.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\layout\\mr_chooser_list_item.xml",
+        "source": "C:\\Users\\shisong\\.android\\build-cache\\a749e24ceac9a3f6d0e696df8baf0baf8a8e699e\\output\\res\\layout\\mr_chooser_list_item.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_retain_instance.xml",
+        "source": "F:\\qiyi_git\\Test\\apiDemos\\src\\main\\res\\layout\\fragment_retain_instance.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\layout\\google_login.xml",
+        "source": "F:\\qiyi_git\\Test\\apiDemos\\src\\main\\res\\layout\\google_login.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\layout\\layout_animations_by_default.xml",
+        "source": "F:\\qiyi_git\\Test\\apiDemos\\src\\main\\res\\layout\\layout_animations_by_default.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\layout\\list_13.xml",
+        "source": "F:\\qiyi_git\\Test\\apiDemos\\src\\main\\res\\layout\\list_13.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\layout\\preference_widget_mypreference.xml",
+        "source": "F:\\qiyi_git\\Test\\apiDemos\\src\\main\\res\\layout\\preference_widget_mypreference.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\layout\\custom_title_1.xml",
+        "source": "F:\\qiyi_git\\Test\\apiDemos\\src\\main\\res\\layout\\custom_title_1.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\layout\\foreground_service_controller.xml",
+        "source": "F:\\qiyi_git\\Test\\apiDemos\\src\\main\\res\\layout\\foreground_service_controller.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_content_include.xml",
+        "source": "C:\\Users\\shisong\\.android\\build-cache\\4432771aebefee61aa7aa09695315c6e4384274f\\output\\res\\layout\\abc_screen_content_include.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\layout\\relative_layout_2.xml",
+        "source": "F:\\qiyi_git\\Test\\apiDemos\\src\\main\\res\\layout\\relative_layout_2.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\layout\\tabs_right_gravity.xml",
+        "source": "F:\\qiyi_git\\Test\\apiDemos\\src\\main\\res\\layout\\tabs_right_gravity.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\layout\\list_12.xml",
+        "source": "F:\\qiyi_git\\Test\\apiDemos\\src\\main\\res\\layout\\list_12.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\layout\\baseline_2.xml",
+        "source": "F:\\qiyi_git\\Test\\apiDemos\\src\\main\\res\\layout\\baseline_2.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_context_menu.xml",
+        "source": "F:\\qiyi_git\\Test\\apiDemos\\src\\main\\res\\layout\\fragment_context_menu.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\layout\\rotation_animation.xml",
+        "source": "F:\\qiyi_git\\Test\\apiDemos\\src\\main\\res\\layout\\rotation_animation.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\layout\\grid_layout_1.xml",
+        "source": "F:\\qiyi_git\\Test\\apiDemos\\src\\main\\res\\layout\\grid_layout_1.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\layout\\presentation_list_item.xml",
+        "source": "F:\\qiyi_git\\Test\\apiDemos\\src\\main\\res\\layout\\presentation_list_item.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\layout\\place_autocomplete_item_prediction.xml",
+        "source": "C:\\Users\\shisong\\.android\\build-cache\\69eff71a1c3b309a80139ca4a130cafbf043fa73\\output\\res\\layout\\place_autocomplete_item_prediction.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\layout\\bouncing_balls.xml",
+        "source": "F:\\qiyi_git\\Test\\apiDemos\\src\\main\\res\\layout\\bouncing_balls.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\layout\\custom_dialog_activity.xml",
+        "source": "F:\\qiyi_git\\Test\\apiDemos\\src\\main\\res\\layout\\custom_dialog_activity.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_chronometer.xml",
+        "source": "C:\\Users\\shisong\\.android\\build-cache\\4432771aebefee61aa7aa09695315c6e4384274f\\output\\res\\layout\\notification_template_part_chronometer.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\layout\\intents.xml",
+        "source": "F:\\qiyi_git\\Test\\apiDemos\\src\\main\\res\\layout\\intents.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\layout\\baseline_3.xml",
+        "source": "F:\\qiyi_git\\Test\\apiDemos\\src\\main\\res\\layout\\baseline_3.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_close_item_material.xml",
+        "source": "C:\\Users\\shisong\\.android\\build-cache\\4432771aebefee61aa7aa09695315c6e4384274f\\output\\res\\layout\\abc_action_mode_close_item_material.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_button_bar_material.xml",
+        "source": "C:\\Users\\shisong\\.android\\build-cache\\4432771aebefee61aa7aa09695315c6e4384274f\\output\\res\\layout\\abc_alert_dialog_button_bar_material.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\layout\\game_controller_input_heading.xml",
+        "source": "F:\\qiyi_git\\Test\\apiDemos\\src\\main\\res\\layout\\game_controller_input_heading.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\layout\\print_html_from_screen.xml",
+        "source": "F:\\qiyi_git\\Test\\apiDemos\\src\\main\\res\\layout\\print_html_from_screen.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\layout\\incoming_message_info.xml",
+        "source": "F:\\qiyi_git\\Test\\apiDemos\\src\\main\\res\\layout\\incoming_message_info.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\layout\\search_query_results.xml",
+        "source": "F:\\qiyi_git\\Test\\apiDemos\\src\\main\\res\\layout\\search_query_results.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple_overlay_action_mode.xml",
+        "source": "C:\\Users\\shisong\\.android\\build-cache\\4432771aebefee61aa7aa09695315c6e4384274f\\output\\res\\layout\\abc_screen_simple_overlay_action_mode.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\layout\\resources_height.xml",
+        "source": "F:\\qiyi_git\\Test\\apiDemos\\src\\main\\res\\layout\\resources_height.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\layout\\search_invoke.xml",
+        "source": "F:\\qiyi_git\\Test\\apiDemos\\src\\main\\res\\layout\\search_invoke.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\layout\\print_bitmap.xml",
+        "source": "F:\\qiyi_git\\Test\\apiDemos\\src\\main\\res\\layout\\print_bitmap.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\layout\\notification_media_cancel_action.xml",
+        "source": "C:\\Users\\shisong\\.android\\build-cache\\4432771aebefee61aa7aa09695315c6e4384274f\\output\\res\\layout\\notification_media_cancel_action.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\layout\\custom_layout.xml",
+        "source": "F:\\qiyi_git\\Test\\apiDemos\\src\\main\\res\\layout\\custom_layout.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\layout\\linear_layout_1.xml",
+        "source": "F:\\qiyi_git\\Test\\apiDemos\\src\\main\\res\\layout\\linear_layout_1.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\layout\\window_focus_observer.xml",
+        "source": "F:\\qiyi_git\\Test\\apiDemos\\src\\main\\res\\layout\\window_focus_observer.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\layout\\grid_2.xml",
+        "source": "F:\\qiyi_git\\Test\\apiDemos\\src\\main\\res\\layout\\grid_2.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\layout\\baseline_4.xml",
+        "source": "F:\\qiyi_git\\Test\\apiDemos\\src\\main\\res\\layout\\baseline_4.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_menu.xml",
+        "source": "F:\\qiyi_git\\Test\\apiDemos\\src\\main\\res\\layout\\fragment_menu.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\layout\\radio_group_1.xml",
+        "source": "F:\\qiyi_git\\Test\\apiDemos\\src\\main\\res\\layout\\radio_group_1.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_arguments.xml",
+        "source": "F:\\qiyi_git\\Test\\apiDemos\\src\\main\\res\\layout\\fragment_arguments.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\layout\\status_bar_balloon.xml",
+        "source": "F:\\qiyi_git\\Test\\apiDemos\\src\\main\\res\\layout\\status_bar_balloon.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_checkbox.xml",
+        "source": "C:\\Users\\shisong\\.android\\build-cache\\4432771aebefee61aa7aa09695315c6e4384274f\\output\\res\\layout\\abc_list_menu_item_checkbox.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\layout\\video_player.xml",
+        "source": "F:\\qiyi_git\\Test\\apiDemos\\src\\main\\res\\layout\\video_player.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\layout\\presentation_content.xml",
+        "source": "F:\\qiyi_git\\Test\\apiDemos\\src\\main\\res\\layout\\presentation_content.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\layout\\density_image_views.xml",
+        "source": "F:\\qiyi_git\\Test\\apiDemos\\src\\main\\res\\layout\\density_image_views.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\layout\\transition_scene3.xml",
+        "source": "F:\\qiyi_git\\Test\\apiDemos\\src\\main\\res\\layout\\transition_scene3.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\layout\\log_text_box_1.xml",
+        "source": "F:\\qiyi_git\\Test\\apiDemos\\src\\main\\res\\layout\\log_text_box_1.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\layout\\pick_contact.xml",
+        "source": "F:\\qiyi_git\\Test\\apiDemos\\src\\main\\res\\layout\\pick_contact.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\layout\\labeled_text_edit.xml",
+        "source": "F:\\qiyi_git\\Test\\apiDemos\\src\\main\\res\\layout\\labeled_text_edit.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\layout\\content_browser_nav.xml",
+        "source": "F:\\qiyi_git\\Test\\apiDemos\\src\\main\\res\\layout\\content_browser_nav.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\layout\\linear_layout_6.xml",
+        "source": "F:\\qiyi_git\\Test\\apiDemos\\src\\main\\res\\layout\\linear_layout_6.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\layout\\incoming_message_panel.xml",
+        "source": "F:\\qiyi_git\\Test\\apiDemos\\src\\main\\res\\layout\\incoming_message_panel.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\layout\\layout_animation_4.xml",
+        "source": "F:\\qiyi_git\\Test\\apiDemos\\src\\main\\res\\layout\\layout_animation_4.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\layout\\videoview.xml",
+        "source": "F:\\qiyi_git\\Test\\apiDemos\\src\\main\\res\\layout\\videoview.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\layout\\focus_1.xml",
+        "source": "F:\\qiyi_git\\Test\\apiDemos\\src\\main\\res\\layout\\focus_1.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\layout\\list_7.xml",
+        "source": "F:\\qiyi_git\\Test\\apiDemos\\src\\main\\res\\layout\\list_7.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\layout\\link.xml",
+        "source": "F:\\qiyi_git\\Test\\apiDemos\\src\\main\\res\\layout\\link.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\layout\\custom_view_accessibility.xml",
+        "source": "F:\\qiyi_git\\Test\\apiDemos\\src\\main\\res\\layout\\custom_view_accessibility.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\layout\\reorder_three.xml",
+        "source": "F:\\qiyi_git\\Test\\apiDemos\\src\\main\\res\\layout\\reorder_three.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\layout\\messenger_service_binding.xml",
+        "source": "F:\\qiyi_git\\Test\\apiDemos\\src\\main\\res\\layout\\messenger_service_binding.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\layout\\redirect_main.xml",
+        "source": "F:\\qiyi_git\\Test\\apiDemos\\src\\main\\res\\layout\\redirect_main.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\layout\\hover.xml",
+        "source": "F:\\qiyi_git\\Test\\apiDemos\\src\\main\\res\\layout\\hover.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\layout\\service_start_arguments_controller.xml",
+        "source": "F:\\qiyi_git\\Test\\apiDemos\\src\\main\\res\\layout\\service_start_arguments_controller.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\layout\\table_layout_1.xml",
+        "source": "F:\\qiyi_git\\Test\\apiDemos\\src\\main\\res\\layout\\table_layout_1.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\layout\\marquee.xml",
+        "source": "F:\\qiyi_git\\Test\\apiDemos\\src\\main\\res\\layout\\marquee.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\layout\\grid_1.xml",
+        "source": "F:\\qiyi_git\\Test\\apiDemos\\src\\main\\res\\layout\\grid_1.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\layout\\reorder_on_launch.xml",
+        "source": "F:\\qiyi_git\\Test\\apiDemos\\src\\main\\res\\layout\\reorder_on_launch.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\layout\\support_simple_spinner_dropdown_item.xml",
+        "source": "C:\\Users\\shisong\\.android\\build-cache\\4432771aebefee61aa7aa09695315c6e4384274f\\output\\res\\layout\\support_simple_spinner_dropdown_item.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_hide_show.xml",
+        "source": "F:\\qiyi_git\\Test\\apiDemos\\src\\main\\res\\layout\\fragment_hide_show.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\layout\\presentation_with_media_router_activity.xml",
+        "source": "F:\\qiyi_git\\Test\\apiDemos\\src\\main\\res\\layout\\presentation_with_media_router_activity.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\layout\\image_details.xml",
+        "source": "F:\\qiyi_git\\Test\\apiDemos\\src\\main\\res\\layout\\image_details.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\layout\\consumer_ir.xml",
+        "source": "F:\\qiyi_git\\Test\\apiDemos\\src\\main\\res\\layout\\consumer_ir.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_singlechoice_material.xml",
+        "source": "C:\\Users\\shisong\\.android\\build-cache\\4432771aebefee61aa7aa09695315c6e4384274f\\output\\res\\layout\\select_dialog_singlechoice_material.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\layout\\table_layout_7.xml",
+        "source": "F:\\qiyi_git\\Test\\apiDemos\\src\\main\\res\\layout\\table_layout_7.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\layout\\cast_help_text.xml",
+        "source": "C:\\Users\\shisong\\.android\\build-cache\\39a741ce9bc1798f10e81c3748e7142d3c7b88fe\\output\\res\\layout\\cast_help_text.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\layout\\resources_width.xml",
+        "source": "F:\\qiyi_git\\Test\\apiDemos\\src\\main\\res\\layout\\resources_width.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\layout\\rotating_view.xml",
+        "source": "F:\\qiyi_git\\Test\\apiDemos\\src\\main\\res\\layout\\rotating_view.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\layout\\install_apk.xml",
+        "source": "F:\\qiyi_git\\Test\\apiDemos\\src\\main\\res\\layout\\install_apk.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\layout\\focus_3.xml",
+        "source": "F:\\qiyi_git\\Test\\apiDemos\\src\\main\\res\\layout\\focus_3.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\layout\\abc_popup_menu_item_layout.xml",
+        "source": "C:\\Users\\shisong\\.android\\build-cache\\4432771aebefee61aa7aa09695315c6e4384274f\\output\\res\\layout\\abc_popup_menu_item_layout.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\layout\\text_undo.xml",
+        "source": "F:\\qiyi_git\\Test\\apiDemos\\src\\main\\res\\layout\\text_undo.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\layout\\layout_animation_7.xml",
+        "source": "F:\\qiyi_git\\Test\\apiDemos\\src\\main\\res\\layout\\layout_animation_7.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_dropdown_item_icons_2line.xml",
+        "source": "C:\\Users\\shisong\\.android\\build-cache\\4432771aebefee61aa7aa09695315c6e4384274f\\output\\res\\layout\\abc_search_dropdown_item_icons_2line.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\layout\\table_layout_5.xml",
+        "source": "F:\\qiyi_git\\Test\\apiDemos\\src\\main\\res\\layout\\table_layout_5.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\layout\\action_bar_tab_content.xml",
+        "source": "F:\\qiyi_git\\Test\\apiDemos\\src\\main\\res\\layout\\action_bar_tab_content.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog.xml",
+        "source": "F:\\qiyi_git\\Test\\apiDemos\\src\\main\\res\\layout\\select_dialog.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\layout\\scrollbar2.xml",
+        "source": "F:\\qiyi_git\\Test\\apiDemos\\src\\main\\res\\layout\\scrollbar2.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\layout\\custom_view_1.xml",
+        "source": "F:\\qiyi_git\\Test\\apiDemos\\src\\main\\res\\layout\\custom_view_1.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\layout\\resources.xml",
+        "source": "F:\\qiyi_git\\Test\\apiDemos\\src\\main\\res\\layout\\resources.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\layout\\mr_controller_volume_item.xml",
+        "source": "C:\\Users\\shisong\\.android\\build-cache\\a749e24ceac9a3f6d0e696df8baf0baf8a8e699e\\output\\res\\layout\\mr_controller_volume_item.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\layout\\chronometer.xml",
+        "source": "F:\\qiyi_git\\Test\\apiDemos\\src\\main\\res\\layout\\chronometer.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\layout\\animation_1.xml",
+        "source": "F:\\qiyi_git\\Test\\apiDemos\\src\\main\\res\\layout\\animation_1.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\layout\\cast_tracks_chooser_dialog_layout.xml",
+        "source": "C:\\Users\\shisong\\.android\\build-cache\\39a741ce9bc1798f10e81c3748e7142d3c7b88fe\\output\\res\\layout\\cast_tracks_chooser_dialog_layout.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\layout\\linear_layout_8.xml",
+        "source": "F:\\qiyi_git\\Test\\apiDemos\\src\\main\\res\\layout\\linear_layout_8.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\layout\\autocomplete_2.xml",
+        "source": "F:\\qiyi_git\\Test\\apiDemos\\src\\main\\res\\layout\\autocomplete_2.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\layout\\baseline_nested_3.xml",
+        "source": "F:\\qiyi_git\\Test\\apiDemos\\src\\main\\res\\layout\\baseline_nested_3.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\layout\\secure_view.xml",
+        "source": "F:\\qiyi_git\\Test\\apiDemos\\src\\main\\res\\layout\\secure_view.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\layout\\send_result.xml",
+        "source": "F:\\qiyi_git\\Test\\apiDemos\\src\\main\\res\\layout\\send_result.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_bar.xml",
+        "source": "C:\\Users\\shisong\\.android\\build-cache\\4432771aebefee61aa7aa09695315c6e4384274f\\output\\res\\layout\\abc_action_mode_bar.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\layout\\scroll_view_2.xml",
+        "source": "F:\\qiyi_git\\Test\\apiDemos\\src\\main\\res\\layout\\scroll_view_2.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\layout\\cast_tracks_chooser_dialog_row_layout.xml",
+        "source": "C:\\Users\\shisong\\.android\\build-cache\\39a741ce9bc1798f10e81c3748e7142d3c7b88fe\\output\\res\\layout\\cast_tracks_chooser_dialog_row_layout.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\layout\\keystore_usage.xml",
+        "source": "F:\\qiyi_git\\Test\\apiDemos\\src\\main\\res\\layout\\keystore_usage.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\layout\\mms_demo.xml",
+        "source": "F:\\qiyi_git\\Test\\apiDemos\\src\\main\\res\\layout\\mms_demo.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\layout\\sms_demo.xml",
+        "source": "F:\\qiyi_git\\Test\\apiDemos\\src\\main\\res\\layout\\sms_demo.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\layout\\layout_animation_5.xml",
+        "source": "F:\\qiyi_git\\Test\\apiDemos\\src\\main\\res\\layout\\layout_animation_5.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\layout\\wallpaper_2.xml",
+        "source": "F:\\qiyi_git\\Test\\apiDemos\\src\\main\\res\\layout\\wallpaper_2.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\layout\\abc_popup_menu_header_item_layout.xml",
+        "source": "C:\\Users\\shisong\\.android\\build-cache\\4432771aebefee61aa7aa09695315c6e4384274f\\output\\res\\layout\\abc_popup_menu_header_item_layout.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\layout\\table_layout_10.xml",
+        "source": "F:\\qiyi_git\\Test\\apiDemos\\src\\main\\res\\layout\\table_layout_10.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\layout\\local_service_binding.xml",
+        "source": "F:\\qiyi_git\\Test\\apiDemos\\src\\main\\res\\layout\\local_service_binding.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\layout\\tabs_scroll.xml",
+        "source": "F:\\qiyi_git\\Test\\apiDemos\\src\\main\\res\\layout\\tabs_scroll.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\layout\\accessibility_service.xml",
+        "source": "F:\\qiyi_git\\Test\\apiDemos\\src\\main\\res\\layout\\accessibility_service.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\layout\\text_switcher_1.xml",
+        "source": "F:\\qiyi_git\\Test\\apiDemos\\src\\main\\res\\layout\\text_switcher_1.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\layout\\overscan_activity.xml",
+        "source": "F:\\qiyi_git\\Test\\apiDemos\\src\\main\\res\\layout\\overscan_activity.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_dialog.xml",
+        "source": "F:\\qiyi_git\\Test\\apiDemos\\src\\main\\res\\layout\\fragment_dialog.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\layout\\translucent_bars.xml",
+        "source": "F:\\qiyi_git\\Test\\apiDemos\\src\\main\\res\\layout\\translucent_bars.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\layout\\autocomplete_4.xml",
+        "source": "F:\\qiyi_git\\Test\\apiDemos\\src\\main\\res\\layout\\autocomplete_4.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\layout\\baseline_nested_1.xml",
+        "source": "F:\\qiyi_git\\Test\\apiDemos\\src\\main\\res\\layout\\baseline_nested_1.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_item_material.xml",
+        "source": "C:\\Users\\shisong\\.android\\build-cache\\4432771aebefee61aa7aa09695315c6e4384274f\\output\\res\\layout\\select_dialog_item_material.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\layout\\reorder_two.xml",
+        "source": "F:\\qiyi_git\\Test\\apiDemos\\src\\main\\res\\layout\\reorder_two.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_view.xml",
+        "source": "C:\\Users\\shisong\\.android\\build-cache\\4432771aebefee61aa7aa09695315c6e4384274f\\output\\res\\layout\\abc_search_view.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\layout\\place_autocomplete_progress.xml",
+        "source": "C:\\Users\\shisong\\.android\\build-cache\\69eff71a1c3b309a80139ca4a130cafbf043fa73\\output\\res\\layout\\place_autocomplete_progress.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\layout\\mediaplayer_1.xml",
+        "source": "F:\\qiyi_git\\Test\\apiDemos\\src\\main\\res\\layout\\mediaplayer_1.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\layout\\appwidget_provider.xml",
+        "source": "F:\\qiyi_git\\Test\\apiDemos\\src\\main\\res\\layout\\appwidget_provider.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\layout\\animation_reversing.xml",
+        "source": "F:\\qiyi_git\\Test\\apiDemos\\src\\main\\res\\layout\\animation_reversing.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\layout\\trigger_sensors.xml",
+        "source": "F:\\qiyi_git\\Test\\apiDemos\\src\\main\\res\\layout\\trigger_sensors.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\layout\\secure_surface_view_activity.xml",
+        "source": "F:\\qiyi_git\\Test\\apiDemos\\src\\main\\res\\layout\\secure_surface_view_activity.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\layout\\local_service_controller.xml",
+        "source": "F:\\qiyi_git\\Test\\apiDemos\\src\\main\\res\\layout\\local_service_controller.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\layout\\table_layout_3.xml",
+        "source": "F:\\qiyi_git\\Test\\apiDemos\\src\\main\\res\\layout\\table_layout_3.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\layout\\table_layout_9.xml",
+        "source": "F:\\qiyi_git\\Test\\apiDemos\\src\\main\\res\\layout\\table_layout_9.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_arguments_fragment.xml",
+        "source": "F:\\qiyi_git\\Test\\apiDemos\\src\\main\\res\\layout\\fragment_arguments_fragment.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_item_layout.xml",
+        "source": "C:\\Users\\shisong\\.android\\build-cache\\4432771aebefee61aa7aa09695315c6e4384274f\\output\\res\\layout\\abc_action_menu_item_layout.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\layout\\layout_animations_hideshow.xml",
+        "source": "F:\\qiyi_git\\Test\\apiDemos\\src\\main\\res\\layout\\layout_animations_hideshow.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\layout\\game.xml",
+        "source": "F:\\qiyi_git\\Test\\apiDemos\\src\\main\\res\\layout\\game.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\layout\\list_position.xml",
+        "source": "F:\\qiyi_git\\Test\\apiDemos\\src\\main\\res\\layout\\list_position.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\layout\\layout_animation_3.xml",
+        "source": "F:\\qiyi_git\\Test\\apiDemos\\src\\main\\res\\layout\\layout_animation_3.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\layout\\redirect_getter.xml",
+        "source": "F:\\qiyi_git\\Test\\apiDemos\\src\\main\\res\\layout\\redirect_getter.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\layout\\contacts_filter.xml",
+        "source": "F:\\qiyi_git\\Test\\apiDemos\\src\\main\\res\\layout\\contacts_filter.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\layout\\reorder_four.xml",
+        "source": "F:\\qiyi_git\\Test\\apiDemos\\src\\main\\res\\layout\\reorder_four.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\layout\\controls_1.xml",
+        "source": "F:\\qiyi_git\\Test\\apiDemos\\src\\main\\res\\layout\\controls_1.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\layout\\action_bar_tabs.xml",
+        "source": "F:\\qiyi_git\\Test\\apiDemos\\src\\main\\res\\layout\\action_bar_tabs.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\layout\\external_storage_item.xml",
+        "source": "F:\\qiyi_git\\Test\\apiDemos\\src\\main\\res\\layout\\external_storage_item.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\layout\\mr_playback_control.xml",
+        "source": "C:\\Users\\shisong\\.android\\build-cache\\a749e24ceac9a3f6d0e696df8baf0baf8a8e699e\\output\\res\\layout\\mr_playback_control.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\layout\\animation_3.xml",
+        "source": "F:\\qiyi_git\\Test\\apiDemos\\src\\main\\res\\layout\\animation_3.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\layout\\activity_animation.xml",
+        "source": "F:\\qiyi_git\\Test\\apiDemos\\src\\main\\res\\layout\\activity_animation.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\layout\\transition_scene2.xml",
+        "source": "F:\\qiyi_git\\Test\\apiDemos\\src\\main\\res\\layout\\transition_scene2.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\layout\\progressbar_4.xml",
+        "source": "F:\\qiyi_git\\Test\\apiDemos\\src\\main\\res\\layout\\progressbar_4.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\layout\\receive_result.xml",
+        "source": "F:\\qiyi_git\\Test\\apiDemos\\src\\main\\res\\layout\\receive_result.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\layout\\animation_multi_property.xml",
+        "source": "F:\\qiyi_git\\Test\\apiDemos\\src\\main\\res\\layout\\animation_multi_property.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\layout\\split_touch_view.xml",
+        "source": "F:\\qiyi_git\\Test\\apiDemos\\src\\main\\res\\layout\\split_touch_view.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\layout\\activity_finish_affinity.xml",
+        "source": "F:\\qiyi_git\\Test\\apiDemos\\src\\main\\res\\layout\\activity_finish_affinity.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\layout\\list_8.xml",
+        "source": "F:\\qiyi_git\\Test\\apiDemos\\src\\main\\res\\layout\\list_8.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\layout\\mapview.xml",
+        "source": "F:\\qiyi_git\\Test\\apiDemos\\src\\main\\res\\layout\\mapview.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\layout\\focus_5.xml",
+        "source": "F:\\qiyi_git\\Test\\apiDemos\\src\\main\\res\\layout\\focus_5.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\layout\\shadow_card_drag.xml",
+        "source": "F:\\qiyi_git\\Test\\apiDemos\\src\\main\\res\\layout\\shadow_card_drag.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\layout\\textclock.xml",
+        "source": "F:\\qiyi_git\\Test\\apiDemos\\src\\main\\res\\layout\\textclock.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\layout\\density_styled_image_views.xml",
+        "source": "F:\\qiyi_git\\Test\\apiDemos\\src\\main\\res\\layout\\density_styled_image_views.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\layout\\shape_drawable_1.xml",
+        "source": "F:\\qiyi_git\\Test\\apiDemos\\src\\main\\res\\layout\\shape_drawable_1.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\layout\\spinner_1.xml",
+        "source": "F:\\qiyi_git\\Test\\apiDemos\\src\\main\\res\\layout\\spinner_1.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\layout\\grid_layout_2.xml",
+        "source": "F:\\qiyi_git\\Test\\apiDemos\\src\\main\\res\\layout\\grid_layout_2.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\layout\\forwarding.xml",
+        "source": "F:\\qiyi_git\\Test\\apiDemos\\src\\main\\res\\layout\\forwarding.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\layout\\searchview_filter.xml",
+        "source": "F:\\qiyi_git\\Test\\apiDemos\\src\\main\\res\\layout\\searchview_filter.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\layout\\buttons_1.xml",
+        "source": "F:\\qiyi_git\\Test\\apiDemos\\src\\main\\res\\layout\\buttons_1.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple.xml",
+        "source": "C:\\Users\\shisong\\.android\\build-cache\\4432771aebefee61aa7aa09695315c6e4384274f\\output\\res\\layout\\abc_screen_simple.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_lines.xml",
+        "source": "C:\\Users\\shisong\\.android\\build-cache\\4432771aebefee61aa7aa09695315c6e4384274f\\output\\res\\layout\\notification_template_lines.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\layout\\redirect_enter.xml",
+        "source": "F:\\qiyi_git\\Test\\apiDemos\\src\\main\\res\\layout\\redirect_enter.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\layout\\linear_layout_3.xml",
+        "source": "F:\\qiyi_git\\Test\\apiDemos\\src\\main\\res\\layout\\linear_layout_3.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\layout\\surface_view_overlay.xml",
+        "source": "F:\\qiyi_git\\Test\\apiDemos\\src\\main\\res\\layout\\surface_view_overlay.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\layout\\read_asset.xml",
+        "source": "F:\\qiyi_git\\Test\\apiDemos\\src\\main\\res\\layout\\read_asset.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_big_media.xml",
+        "source": "C:\\Users\\shisong\\.android\\build-cache\\4432771aebefee61aa7aa09695315c6e4384274f\\output\\res\\layout\\notification_template_big_media.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\layout\\linear_layout_10.xml",
+        "source": "F:\\qiyi_git\\Test\\apiDemos\\src\\main\\res\\layout\\linear_layout_10.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\layout\\layout_animation_1.xml",
+        "source": "F:\\qiyi_git\\Test\\apiDemos\\src\\main\\res\\layout\\layout_animation_1.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\layout\\abc_select_dialog_material.xml",
+        "source": "C:\\Users\\shisong\\.android\\build-cache\\4432771aebefee61aa7aa09695315c6e4384274f\\output\\res\\layout\\abc_select_dialog_material.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\layout\\voice_recognition.xml",
+        "source": "F:\\qiyi_git\\Test\\apiDemos\\src\\main\\res\\layout\\voice_recognition.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\layout\\external_storage.xml",
+        "source": "F:\\qiyi_git\\Test\\apiDemos\\src\\main\\res\\layout\\external_storage.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\layout\\action_bar_navigation.xml",
+        "source": "F:\\qiyi_git\\Test\\apiDemos\\src\\main\\res\\layout\\action_bar_navigation.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\layout\\mr_controller_material_dialog_b.xml",
+        "source": "C:\\Users\\shisong\\.android\\build-cache\\a749e24ceac9a3f6d0e696df8baf0baf8a8e699e\\output\\res\\layout\\mr_controller_material_dialog_b.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\layout\\remote_binding_options.xml",
+        "source": "F:\\qiyi_git\\Test\\apiDemos\\src\\main\\res\\layout\\remote_binding_options.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_up_container.xml",
+        "source": "C:\\Users\\shisong\\.android\\build-cache\\4432771aebefee61aa7aa09695315c6e4384274f\\output\\res\\layout\\abc_action_bar_up_container.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\layout\\autocomplete_6.xml",
+        "source": "F:\\qiyi_git\\Test\\apiDemos\\src\\main\\res\\layout\\autocomplete_6.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\layout\\resources_smallest_width.xml",
+        "source": "F:\\qiyi_git\\Test\\apiDemos\\src\\main\\res\\layout\\resources_smallest_width.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\layout\\linear_layout_2.xml",
+        "source": "F:\\qiyi_git\\Test\\apiDemos\\src\\main\\res\\layout\\linear_layout_2.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_icon.xml",
+        "source": "C:\\Users\\shisong\\.android\\build-cache\\4432771aebefee61aa7aa09695315c6e4384274f\\output\\res\\layout\\abc_list_menu_item_icon.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\layout\\switches.xml",
+        "source": "F:\\qiyi_git\\Test\\apiDemos\\src\\main\\res\\layout\\switches.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\layout\\clipboard.xml",
+        "source": "F:\\qiyi_git\\Test\\apiDemos\\src\\main\\res\\layout\\clipboard.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\layout\\launcher_shortcuts.xml",
+        "source": "F:\\qiyi_git\\Test\\apiDemos\\src\\main\\res\\layout\\launcher_shortcuts.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\layout\\quick_contacts.xml",
+        "source": "F:\\qiyi_git\\Test\\apiDemos\\src\\main\\res\\layout\\quick_contacts.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\layout\\linear_layout_4.xml",
+        "source": "F:\\qiyi_git\\Test\\apiDemos\\src\\main\\res\\layout\\linear_layout_4.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\layout\\soft_input_modes.xml",
+        "source": "F:\\qiyi_git\\Test\\apiDemos\\src\\main\\res\\layout\\soft_input_modes.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_media.xml",
+        "source": "C:\\Users\\shisong\\.android\\build-cache\\4432771aebefee61aa7aa09695315c6e4384274f\\output\\res\\layout\\notification_template_media.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\layout\\game_controller_input.xml",
+        "source": "F:\\qiyi_git\\Test\\apiDemos\\src\\main\\res\\layout\\game_controller_input.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\layout\\animation_custom_evaluator.xml",
+        "source": "F:\\qiyi_git\\Test\\apiDemos\\src\\main\\res\\layout\\animation_custom_evaluator.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\layout\\resources_smallest_width_inner.xml",
+        "source": "F:\\qiyi_git\\Test\\apiDemos\\src\\main\\res\\layout\\resources_smallest_width_inner.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\layout\\baseline_1.xml",
+        "source": "F:\\qiyi_git\\Test\\apiDemos\\src\\main\\res\\layout\\baseline_1.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\layout\\tasklist_main.xml",
+        "source": "F:\\qiyi_git\\Test\\apiDemos\\src\\main\\res\\layout\\tasklist_main.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\layout\\relative_layout_1.xml",
+        "source": "F:\\qiyi_git\\Test\\apiDemos\\src\\main\\res\\layout\\relative_layout_1.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\layout\\alarm_service.xml",
+        "source": "F:\\qiyi_git\\Test\\apiDemos\\src\\main\\res\\layout\\alarm_service.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\layout\\mediaplayer_2.xml",
+        "source": "F:\\qiyi_git\\Test\\apiDemos\\src\\main\\res\\layout\\mediaplayer_2.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_dialog_or_activity.xml",
+        "source": "F:\\qiyi_git\\Test\\apiDemos\\src\\main\\res\\layout\\fragment_dialog_or_activity.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\layout\\alert_dialog.xml",
+        "source": "F:\\qiyi_git\\Test\\apiDemos\\src\\main\\res\\layout\\alert_dialog.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\layout\\list_item_checkbox.xml",
+        "source": "F:\\qiyi_git\\Test\\apiDemos\\src\\main\\res\\layout\\list_item_checkbox.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\layout\\resources_layout_reference.xml",
+        "source": "F:\\qiyi_git\\Test\\apiDemos\\src\\main\\res\\layout\\resources_layout_reference.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\layout\\incoming_message_interstitial.xml",
+        "source": "F:\\qiyi_git\\Test\\apiDemos\\src\\main\\res\\layout\\incoming_message_interstitial.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\layout\\forward_target.xml",
+        "source": "F:\\qiyi_git\\Test\\apiDemos\\src\\main\\res\\layout\\forward_target.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\layout\\tabs1.xml",
+        "source": "F:\\qiyi_git\\Test\\apiDemos\\src\\main\\res\\layout\\tabs1.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\layout\\place_autocomplete_item_powered_by_google.xml",
+        "source": "C:\\Users\\shisong\\.android\\build-cache\\69eff71a1c3b309a80139ca4a130cafbf043fa73\\output\\res\\layout\\place_autocomplete_item_powered_by_google.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\layout\\action_bar_navigation_target.xml",
+        "source": "F:\\qiyi_git\\Test\\apiDemos\\src\\main\\res\\layout\\action_bar_navigation_target.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\layout\\date_widgets_example_2.xml",
+        "source": "F:\\qiyi_git\\Test\\apiDemos\\src\\main\\res\\layout\\date_widgets_example_2.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\layout\\remote_service_binding.xml",
+        "source": "F:\\qiyi_git\\Test\\apiDemos\\src\\main\\res\\layout\\remote_service_binding.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\layout\\path_animations.xml",
+        "source": "F:\\qiyi_git\\Test\\apiDemos\\src\\main\\res\\layout\\path_animations.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\layout\\ratingbar_1.xml",
+        "source": "F:\\qiyi_git\\Test\\apiDemos\\src\\main\\res\\layout\\ratingbar_1.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_toolbar.xml",
+        "source": "C:\\Users\\shisong\\.android\\build-cache\\4432771aebefee61aa7aa09695315c6e4384274f\\output\\res\\layout\\abc_screen_toolbar.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\layout\\autocomplete_5.xml",
+        "source": "F:\\qiyi_git\\Test\\apiDemos\\src\\main\\res\\layout\\autocomplete_5.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\layout\\presentation_activity.xml",
+        "source": "F:\\qiyi_git\\Test\\apiDemos\\src\\main\\res\\layout\\presentation_activity.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\layout\\progressbar_2.xml",
+        "source": "F:\\qiyi_git\\Test\\apiDemos\\src\\main\\res\\layout\\progressbar_2.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\layout\\cast_mini_controller.xml",
+        "source": "C:\\Users\\shisong\\.android\\build-cache\\39a741ce9bc1798f10e81c3748e7142d3c7b88fe\\output\\res\\layout\\cast_mini_controller.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\layout\\print_html_off_screen.xml",
+        "source": "F:\\qiyi_git\\Test\\apiDemos\\src\\main\\res\\layout\\print_html_off_screen.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\layout\\cast_expanded_controller_activity.xml",
+        "source": "C:\\Users\\shisong\\.android\\build-cache\\39a741ce9bc1798f10e81c3748e7142d3c7b88fe\\output\\res\\layout\\cast_expanded_controller_activity.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\layout\\simple_list_item_checkable_1.xml",
+        "source": "F:\\qiyi_git\\Test\\apiDemos\\src\\main\\res\\layout\\simple_list_item_checkable_1.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\layout\\morse_code.xml",
+        "source": "F:\\qiyi_git\\Test\\apiDemos\\src\\main\\res\\layout\\morse_code.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\layout\\baseline_6.xml",
+        "source": "F:\\qiyi_git\\Test\\apiDemos\\src\\main\\res\\layout\\baseline_6.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\layout\\presentation_with_media_router_content.xml",
+        "source": "F:\\qiyi_git\\Test\\apiDemos\\src\\main\\res\\layout\\presentation_with_media_router_content.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_layout.xml",
+        "source": "F:\\qiyi_git\\Test\\apiDemos\\src\\main\\res\\layout\\fragment_layout.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_title_item.xml",
+        "source": "C:\\Users\\shisong\\.android\\build-cache\\4432771aebefee61aa7aa09695315c6e4384274f\\output\\res\\layout\\abc_action_bar_title_item.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\layout\\resources_width_and_height.xml",
+        "source": "F:\\qiyi_git\\Test\\apiDemos\\src\\main\\res\\layout\\resources_width_and_height.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\layout\\intent_activity_flags.xml",
+        "source": "F:\\qiyi_git\\Test\\apiDemos\\src\\main\\res\\layout\\intent_activity_flags.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\layout\\translucent_background.xml",
+        "source": "F:\\qiyi_git\\Test\\apiDemos\\src\\main\\res\\layout\\translucent_background.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\layout\\table_layout_12.xml",
+        "source": "F:\\qiyi_git\\Test\\apiDemos\\src\\main\\res\\layout\\table_layout_12.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\layout\\status_bar_notifications.xml",
+        "source": "F:\\qiyi_git\\Test\\apiDemos\\src\\main\\res\\layout\\status_bar_notifications.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\layout\\animation_cloning.xml",
+        "source": "F:\\qiyi_git\\Test\\apiDemos\\src\\main\\res\\layout\\animation_cloning.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_material.xml",
+        "source": "C:\\Users\\shisong\\.android\\build-cache\\4432771aebefee61aa7aa09695315c6e4384274f\\output\\res\\layout\\abc_alert_dialog_material.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\layout\\alert_dialog_text_entry.xml",
+        "source": "F:\\qiyi_git\\Test\\apiDemos\\src\\main\\res\\layout\\alert_dialog_text_entry.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\layout\\action_bar_settings_action_provider.xml",
+        "source": "F:\\qiyi_git\\Test\\apiDemos\\src\\main\\res\\layout\\action_bar_settings_action_provider.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\layout\\list_item_icon_text.xml",
+        "source": "F:\\qiyi_git\\Test\\apiDemos\\src\\main\\res\\layout\\list_item_icon_text.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\layout\\secure_dialog_activity.xml",
+        "source": "F:\\qiyi_git\\Test\\apiDemos\\src\\main\\res\\layout\\secure_dialog_activity.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_stack.xml",
+        "source": "F:\\qiyi_git\\Test\\apiDemos\\src\\main\\res\\layout\\fragment_stack.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\layout\\popup_menu_1.xml",
+        "source": "F:\\qiyi_git\\Test\\apiDemos\\src\\main\\res\\layout\\popup_menu_1.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\layout\\text_to_speech.xml",
+        "source": "F:\\qiyi_git\\Test\\apiDemos\\src\\main\\res\\layout\\text_to_speech.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_activity.xml",
+        "source": "F:\\qiyi_git\\Test\\apiDemos\\src\\main\\res\\layout\\dialog_activity.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\layout\\table_layout_4.xml",
+        "source": "F:\\qiyi_git\\Test\\apiDemos\\src\\main\\res\\layout\\table_layout_4.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_view_list_nav_layout.xml",
+        "source": "C:\\Users\\shisong\\.android\\build-cache\\4432771aebefee61aa7aa09695315c6e4384274f\\output\\res\\layout\\abc_action_bar_view_list_nav_layout.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_time.xml",
+        "source": "C:\\Users\\shisong\\.android\\build-cache\\4432771aebefee61aa7aa09695315c6e4384274f\\output\\res\\layout\\notification_template_part_time.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\layout\\resources_layout_reference_tablet.xml",
+        "source": "F:\\qiyi_git\\Test\\apiDemos\\src\\main\\res\\layout\\resources_layout_reference_tablet.xml"
+    }
+]

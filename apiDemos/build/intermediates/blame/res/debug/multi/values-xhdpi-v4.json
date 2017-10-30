@@ -1,0 +1,26 @@
+[
+    {
+        "outputFile": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-xhdpi-v4\\values-xhdpi-v4.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 61,
+                    "endOffset": 112
+                },
+                "from": {
+                    "file": "F:\\qiyi_git\\Test\\apiDemos\\src\\main\\res\\values-xhdpi\\strings.xml",
+                    "position": {
+                        "startLine": 17,
+                        "startColumn": 4,
+                        "startOffset": 691,
+                        "endColumn": 61,
+                        "endOffset": 748
+                    }
+                }
+            }
+        ]
+    }
+]

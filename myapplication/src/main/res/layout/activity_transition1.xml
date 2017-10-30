@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/phoneSearchDeleteButton"
+        android:layout_width="27dp"
+        android:layout_height="27dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="5dp"
+        android:src="@drawable/ico_vip_s"
+        android:transitionName="XXXX"/>
+
+    <RelativeLayout
+        android:id="@+id/phoneSearchKeyWordLayout"
+        android:layout_width="match_parent"
+        android:layout_height="27dp"
+        android:layout_toLeftOf="@id/phoneSearchDeleteButton"
+        android:background="@drawable/round_rect_green_search"
+        android:transitionName="bbbb">
+
+        <RelativeLayout
+            android:id="@+id/layout_imgsearch_switch"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/btn_searchtype"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp"
+                android:drawablePadding="5dp"
+                android:text="fdadfs"
+                android:textColor="#FF0CBE08"
+                android:textSize="12sp"/>
+
+            <ImageView
+                android:id="@+id/ico_right"
+                android:layout_width="27dp"
+                android:layout_height="27dp"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="5dp"
+                android:layout_toRightOf="@id/btn_searchtype"
+                android:src="@drawable/ico_vip"/>
+        </RelativeLayout>
+
+        <EditText
+            android:id="@+id/phoneSearchKeyword"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@id/layout_imgsearch_switch"
+            android:background="@null"
+            android:drawablePadding="10dp"
+            android:ellipsize="end"
+            android:imeOptions="actionSearch"
+            android:paddingBottom="2dip"
+            android:paddingLeft="10dp"
+            android:paddingRight="30dip"
+            android:paddingTop="2dip"
+            android:singleLine="true"
+            android:textColor="#c8c8c8"
+            android:textColorHint="#999999"
+            android:textSize="14sp"/>
+
+    </RelativeLayout>
+
+</RelativeLayout>

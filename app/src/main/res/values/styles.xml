@@ -1,0 +1,16 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="@style/Theme.AppCompat.Light">
+        <!--&lt;!&ndash; Customize your theme here. &ndash;&gt;-->
+        <!--<item name="colorPrimary">@color/colorPrimary</item>-->
+        <!--<item name="colorPrimaryDark">@color/colorPrimaryDark</item>-->
+        <!--<item name="colorAccent">@color/colorAccent</item>-->
+    </style>
+
+    <style mce_bogus="1" name="playRecordBottomTip" parent="android:Animation">
+        <item name="android:windowEnterAnimation">@anim/player_popup_bottom_in</item>
+        <item name="android:windowExitAnimation">@anim/bottom_tips_out</item>
+    </style>
+
+</resources>

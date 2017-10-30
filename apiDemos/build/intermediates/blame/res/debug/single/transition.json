@@ -1,0 +1,34 @@
+[
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\transition\\changebounds_fadeout_sequential.xml",
+        "source": "F:\\qiyi_git\\Test\\apiDemos\\src\\main\\res\\transition\\changebounds_fadeout_sequential.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\transition\\changebounds.xml",
+        "source": "F:\\qiyi_git\\Test\\apiDemos\\src\\main\\res\\transition\\changebounds.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\transition\\transitions_mgr.xml",
+        "source": "F:\\qiyi_git\\Test\\apiDemos\\src\\main\\res\\transition\\transitions_mgr.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\transition\\explode.xml",
+        "source": "F:\\qiyi_git\\Test\\apiDemos\\src\\main\\res\\transition\\explode.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\transition\\changebounds_fadein_together.xml",
+        "source": "F:\\qiyi_git\\Test\\apiDemos\\src\\main\\res\\transition\\changebounds_fadein_together.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\transition\\activity_transition_mgr.xml",
+        "source": "F:\\qiyi_git\\Test\\apiDemos\\src\\main\\res\\transition\\activity_transition_mgr.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\transition\\move_image.xml",
+        "source": "F:\\qiyi_git\\Test\\apiDemos\\src\\main\\res\\transition\\move_image.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\transition\\explode_move_together.xml",
+        "source": "F:\\qiyi_git\\Test\\apiDemos\\src\\main\\res\\transition\\explode_move_together.xml"
+    }
+]

@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\layout-sw480dp-v13\\resources_smallest_width_inner.xml",
+        "source": "F:\\qiyi_git\\Test\\apiDemos\\src\\main\\res\\layout-sw480dp\\resources_smallest_width_inner.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\layout-sw480dp-v13\\resources_smallest_width_row.xml",
+        "source": "F:\\qiyi_git\\Test\\apiDemos\\src\\main\\res\\layout-sw480dp\\resources_smallest_width_row.xml"
+    }
+]

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:shsitem="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.example.flowlayout.FlowView
+        android:id="@+id/flow_view"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@color/colorAccent"
+        shsitem:value_a="false"
+        shsitem:value_b="19"
+        shsitem:value_c="sss"
+        shsitem:value_d="d_2"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:onClick="addData"
+        android:text="++++"/>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recyclerview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/flow_view">
+    </android.support.v7.widget.RecyclerView>
+
+    <com.example.flowlayout.FlowLayout
+        android:id="@+id/layout_flow"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/recyclerview"
+        android:background="#55000000">
+    </com.example.flowlayout.FlowLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/layout_flow"
+        android:background="#5500f099"/>
+
+    <View
+        android:id="@+id/top_block"
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:layout_below="@id/layout_flow"
+        android:background="#FFFF0000"
+        android:visibility="gone"/>
+
+    <com.example.flowlayout.RecommendKeywordLayout
+        android:id="@+id/layout_recommend"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/top_block"
+        android:layout_margin="12dp"
+        android:background="#55ff0d00"
+        android:visibility="gone">
+    </com.example.flowlayout.RecommendKeywordLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:layout_below="@id/layout_recommend"
+        android:background="#FFFF0000"
+        android:visibility="gone"/>
+</RelativeLayout>

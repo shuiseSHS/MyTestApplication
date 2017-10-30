@@ -1,0 +1,2 @@
+include ':app', ':javatest', ':rxjavatest', ':rxdemo', ':socketserver', ':socketclient', ':rxjava2test', ':myapplication', ':floatwindow', ':annotationprocessor', ':websiteapps', ':shortcuttest', ':socketinandroid', ':testdelloader', ':lib', ':jsonparser'
+include ':apiDemos'

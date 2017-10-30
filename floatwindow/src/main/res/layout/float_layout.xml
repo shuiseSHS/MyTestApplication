@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#88000000"
+                android:orientation="vertical">
+
+    <Button
+        android:id="@+id/float_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="设置"/>
+
+    <ImageView
+        android:id="@+id/icon_drag"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/float_id"
+        android:src="@mipmap/ic_launcher"/>
+
+    <ImageView
+        android:id="@+id/thumb"
+        android:layout_width="72dp"
+        android:layout_height="128dp"
+        android:layout_toRightOf="@id/float_id"/>
+</RelativeLayout>

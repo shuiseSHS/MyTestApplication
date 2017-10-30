@@ -1,0 +1,646 @@
+[
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\drawable\\balloons.jpg",
+        "source": "F:\\qiyi_git\\Test\\apiDemos\\src\\main\\res\\drawable\\balloons.jpg"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\drawable\\sample_thumb_6.jpg",
+        "source": "F:\\qiyi_git\\Test\\apiDemos\\src\\main\\res\\drawable\\sample_thumb_6.jpg"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_indicator_material.xml",
+        "source": "C:\\Users\\shisong\\.android\\build-cache\\4432771aebefee61aa7aa09695315c6e4384274f\\output\\res\\drawable\\abc_ratingbar_indicator_material.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\drawable\\sample_4.jpg",
+        "source": "F:\\qiyi_git\\Test\\apiDemos\\src\\main\\res\\drawable\\sample_4.jpg"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_ic_mini_controller_skip_next.xml",
+        "source": "C:\\Users\\shisong\\.android\\build-cache\\39a741ce9bc1798f10e81c3748e7142d3c7b88fe\\output\\res\\drawable\\cast_ic_mini_controller_skip_next.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_icon_light_focused.xml",
+        "source": "C:\\Users\\shisong\\.android\\build-cache\\838372c1bc68eb71e6b4270d8188c666c573fbb1\\output\\res\\drawable\\common_google_signin_btn_icon_light_focused.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_tick_mark_material.xml",
+        "source": "C:\\Users\\shisong\\.android\\build-cache\\4432771aebefee61aa7aa09695315c6e4384274f\\output\\res\\drawable\\abc_seekbar_tick_mark_material.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\drawable\\box_white.xml",
+        "source": "F:\\qiyi_git\\Test\\apiDemos\\src\\main\\res\\drawable\\box_white.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_ic_notification_forward30.xml",
+        "source": "C:\\Users\\shisong\\.android\\build-cache\\39a741ce9bc1798f10e81c3748e7142d3c7b88fe\\output\\res\\drawable\\cast_ic_notification_forward30.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_ab_back_material.xml",
+        "source": "C:\\Users\\shisong\\.android\\build-cache\\4432771aebefee61aa7aa09695315c6e4384274f\\output\\res\\drawable\\abc_ic_ab_back_material.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_ic_expanded_controller_closed_caption.xml",
+        "source": "C:\\Users\\shisong\\.android\\build-cache\\39a741ce9bc1798f10e81c3748e7142d3c7b88fe\\output\\res\\drawable\\cast_ic_expanded_controller_closed_caption.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\drawable\\mr_ic_media_route_connecting_light.xml",
+        "source": "C:\\Users\\shisong\\.android\\build-cache\\a749e24ceac9a3f6d0e696df8baf0baf8a8e699e\\output\\res\\drawable\\mr_ic_media_route_connecting_light.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_5.xml",
+        "source": "F:\\qiyi_git\\Test\\apiDemos\\src\\main\\res\\drawable\\shape_5.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_ic_notification_rewind30.xml",
+        "source": "C:\\Users\\shisong\\.android\\build-cache\\39a741ce9bc1798f10e81c3748e7142d3c7b88fe\\output\\res\\drawable\\cast_ic_notification_rewind30.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_dialog_material_background.xml",
+        "source": "C:\\Users\\shisong\\.android\\build-cache\\4432771aebefee61aa7aa09695315c6e4384274f\\output\\res\\drawable\\abc_dialog_material_background.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\drawable\\icon48x48_1.png",
+        "source": "F:\\qiyi_git\\Test\\apiDemos\\src\\main\\res\\drawable\\icon48x48_1.png"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_ic_expanded_controller_mute.xml",
+        "source": "C:\\Users\\shisong\\.android\\build-cache\\39a741ce9bc1798f10e81c3748e7142d3c7b88fe\\output\\res\\drawable\\cast_ic_expanded_controller_mute.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\drawable\\mr_ic_close_dark.xml",
+        "source": "C:\\Users\\shisong\\.android\\build-cache\\a749e24ceac9a3f6d0e696df8baf0baf8a8e699e\\output\\res\\drawable\\mr_ic_close_dark.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_voice_search_api_material.xml",
+        "source": "C:\\Users\\shisong\\.android\\build-cache\\4432771aebefee61aa7aa09695315c6e4384274f\\output\\res\\drawable\\abc_ic_voice_search_api_material.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\drawable\\sample_5.jpg",
+        "source": "F:\\qiyi_git\\Test\\apiDemos\\src\\main\\res\\drawable\\sample_5.jpg"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_ic_notification_stop_live_stream.xml",
+        "source": "C:\\Users\\shisong\\.android\\build-cache\\39a741ce9bc1798f10e81c3748e7142d3c7b88fe\\output\\res\\drawable\\cast_ic_notification_stop_live_stream.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_mini_controller_gradient_light.xml",
+        "source": "C:\\Users\\shisong\\.android\\build-cache\\39a741ce9bc1798f10e81c3748e7142d3c7b88fe\\output\\res\\drawable\\cast_mini_controller_gradient_light.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_ic_mini_controller_stop.xml",
+        "source": "C:\\Users\\shisong\\.android\\build-cache\\39a741ce9bc1798f10e81c3748e7142d3c7b88fe\\output\\res\\drawable\\cast_ic_mini_controller_stop.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_ic_mini_controller_pause_large.xml",
+        "source": "C:\\Users\\shisong\\.android\\build-cache\\39a741ce9bc1798f10e81c3748e7142d3c7b88fe\\output\\res\\drawable\\cast_ic_mini_controller_pause_large.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\drawable\\animated_gif.gif",
+        "source": "F:\\qiyi_git\\Test\\apiDemos\\src\\main\\res\\drawable\\animated_gif.gif"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_switch_thumb_material.xml",
+        "source": "C:\\Users\\shisong\\.android\\build-cache\\4432771aebefee61aa7aa09695315c6e4384274f\\output\\res\\drawable\\abc_switch_thumb_material.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\drawable\\npatch160dpi.9.png",
+        "source": "F:\\qiyi_git\\Test\\apiDemos\\src\\main\\res\\drawable\\npatch160dpi.9.png"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_text_light.xml",
+        "source": "C:\\Users\\shisong\\.android\\build-cache\\838372c1bc68eb71e6b4270d8188c666c573fbb1\\output\\res\\drawable\\common_google_signin_btn_text_light.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\drawable\\scrollbar_vertical_thumb.xml",
+        "source": "F:\\qiyi_git\\Test\\apiDemos\\src\\main\\res\\drawable\\scrollbar_vertical_thumb.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\drawable\\mr_ic_media_route_connecting_dark.xml",
+        "source": "C:\\Users\\shisong\\.android\\build-cache\\a749e24ceac9a3f6d0e696df8baf0baf8a8e699e\\output\\res\\drawable\\mr_ic_media_route_connecting_dark.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_ic_mini_controller_closed_caption.xml",
+        "source": "C:\\Users\\shisong\\.android\\build-cache\\39a741ce9bc1798f10e81c3748e7142d3c7b88fe\\output\\res\\drawable\\cast_ic_mini_controller_closed_caption.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\drawable\\stylogo160dpi.png",
+        "source": "F:\\qiyi_git\\Test\\apiDemos\\src\\main\\res\\drawable\\stylogo160dpi.png"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\drawable\\mr_ic_close_light.xml",
+        "source": "C:\\Users\\shisong\\.android\\build-cache\\a749e24ceac9a3f6d0e696df8baf0baf8a8e699e\\output\\res\\drawable\\mr_ic_close_light.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\drawable\\sample_thumb_7.jpg",
+        "source": "F:\\qiyi_git\\Test\\apiDemos\\src\\main\\res\\drawable\\sample_thumb_7.jpg"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\drawable\\sample_2.jpg",
+        "source": "F:\\qiyi_git\\Test\\apiDemos\\src\\main\\res\\drawable\\sample_2.jpg"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_collapse.xml",
+        "source": "C:\\Users\\shisong\\.android\\build-cache\\a749e24ceac9a3f6d0e696df8baf0baf8a8e699e\\output\\res\\drawable\\ic_collapse.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_ic_mini_controller_pause.xml",
+        "source": "C:\\Users\\shisong\\.android\\build-cache\\39a741ce9bc1798f10e81c3748e7142d3c7b88fe\\output\\res\\drawable\\cast_ic_mini_controller_pause.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\drawable\\hover_background_inactive.xml",
+        "source": "F:\\qiyi_git\\Test\\apiDemos\\src\\main\\res\\drawable\\hover_background_inactive.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\drawable\\hover_background_active.xml",
+        "source": "F:\\qiyi_git\\Test\\apiDemos\\src\\main\\res\\drawable\\hover_background_active.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\drawable\\sample_thumb_4.jpg",
+        "source": "F:\\qiyi_git\\Test\\apiDemos\\src\\main\\res\\drawable\\sample_thumb_4.jpg"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_spinner_textfield_background_material.xml",
+        "source": "C:\\Users\\shisong\\.android\\build-cache\\4432771aebefee61aa7aa09695315c6e4384274f\\output\\res\\drawable\\abc_spinner_textfield_background_material.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_textfield_search_material.xml",
+        "source": "C:\\Users\\shisong\\.android\\build-cache\\4432771aebefee61aa7aa09695315c6e4384274f\\output\\res\\drawable\\abc_textfield_search_material.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_mini_controller_progress_drawable.xml",
+        "source": "C:\\Users\\shisong\\.android\\build-cache\\39a741ce9bc1798f10e81c3748e7142d3c7b88fe\\output\\res\\drawable\\cast_mini_controller_progress_drawable.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\drawable\\mr_dialog_material_background_dark.xml",
+        "source": "C:\\Users\\shisong\\.android\\build-cache\\a749e24ceac9a3f6d0e696df8baf0baf8a8e699e\\output\\res\\drawable\\mr_dialog_material_background_dark.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\drawable\\hover_background.xml",
+        "source": "F:\\qiyi_git\\Test\\apiDemos\\src\\main\\res\\drawable\\hover_background.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\drawable\\mr_ic_pause_light.xml",
+        "source": "C:\\Users\\shisong\\.android\\build-cache\\a749e24ceac9a3f6d0e696df8baf0baf8a8e699e\\output\\res\\drawable\\mr_ic_pause_light.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\drawable\\photo1.jpg",
+        "source": "F:\\qiyi_git\\Test\\apiDemos\\src\\main\\res\\drawable\\photo1.jpg"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\drawable\\beach.jpg",
+        "source": "F:\\qiyi_git\\Test\\apiDemos\\src\\main\\res\\drawable\\beach.jpg"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\drawable\\gallery_photo_8.jpg",
+        "source": "F:\\qiyi_git\\Test\\apiDemos\\src\\main\\res\\drawable\\gallery_photo_8.jpg"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\drawable\\black_box.xml",
+        "source": "F:\\qiyi_git\\Test\\apiDemos\\src\\main\\res\\drawable\\black_box.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_4.xml",
+        "source": "F:\\qiyi_git\\Test\\apiDemos\\src\\main\\res\\drawable\\shape_4.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\drawable\\sample_1.jpg",
+        "source": "F:\\qiyi_git\\Test\\apiDemos\\src\\main\\res\\drawable\\sample_1.jpg"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\drawable\\sample_thumb_3.jpg",
+        "source": "F:\\qiyi_git\\Test\\apiDemos\\src\\main\\res\\drawable\\sample_thumb_3.jpg"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\drawable\\mr_ic_pause_dark.xml",
+        "source": "C:\\Users\\shisong\\.android\\build-cache\\a749e24ceac9a3f6d0e696df8baf0baf8a8e699e\\output\\res\\drawable\\mr_ic_pause_dark.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_menu_overflow_material.xml",
+        "source": "C:\\Users\\shisong\\.android\\build-cache\\4432771aebefee61aa7aa09695315c6e4384274f\\output\\res\\drawable\\abc_ic_menu_overflow_material.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_2.xml",
+        "source": "F:\\qiyi_git\\Test\\apiDemos\\src\\main\\res\\drawable\\shape_2.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\drawable\\mr_ic_play_light.xml",
+        "source": "C:\\Users\\shisong\\.android\\build-cache\\a749e24ceac9a3f6d0e696df8baf0baf8a8e699e\\output\\res\\drawable\\mr_ic_play_light.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_ic_notification_skip_next.xml",
+        "source": "C:\\Users\\shisong\\.android\\build-cache\\39a741ce9bc1798f10e81c3748e7142d3c7b88fe\\output\\res\\drawable\\cast_ic_notification_skip_next.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\drawable\\box.xml",
+        "source": "F:\\qiyi_git\\Test\\apiDemos\\src\\main\\res\\drawable\\box.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_ic_expanded_controller_rewind30.xml",
+        "source": "C:\\Users\\shisong\\.android\\build-cache\\39a741ce9bc1798f10e81c3748e7142d3c7b88fe\\output\\res\\drawable\\cast_ic_expanded_controller_rewind30.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\drawable\\round_rect.xml",
+        "source": "F:\\qiyi_git\\Test\\apiDemos\\src\\main\\res\\drawable\\round_rect.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_ic_notification_small_icon.xml",
+        "source": "C:\\Users\\shisong\\.android\\build-cache\\39a741ce9bc1798f10e81c3748e7142d3c7b88fe\\output\\res\\drawable\\cast_ic_notification_small_icon.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_thumb_material.xml",
+        "source": "C:\\Users\\shisong\\.android\\build-cache\\4432771aebefee61aa7aa09695315c6e4384274f\\output\\res\\drawable\\abc_seekbar_thumb_material.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\drawable\\sample_7.jpg",
+        "source": "F:\\qiyi_git\\Test\\apiDemos\\src\\main\\res\\drawable\\sample_7.jpg"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\drawable\\mr_ic_media_route_on_light.xml",
+        "source": "C:\\Users\\shisong\\.android\\build-cache\\a749e24ceac9a3f6d0e696df8baf0baf8a8e699e\\output\\res\\drawable\\mr_ic_media_route_on_light.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_ic_mini_controller_stop_large.xml",
+        "source": "C:\\Users\\shisong\\.android\\build-cache\\39a741ce9bc1798f10e81c3748e7142d3c7b88fe\\output\\res\\drawable\\cast_ic_mini_controller_stop_large.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\drawable\\line.xml",
+        "source": "F:\\qiyi_git\\Test\\apiDemos\\src\\main\\res\\drawable\\line.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_arrow_drop_right_black_24dp.xml",
+        "source": "C:\\Users\\shisong\\.android\\build-cache\\4432771aebefee61aa7aa09695315c6e4384274f\\output\\res\\drawable\\abc_ic_arrow_drop_right_black_24dp.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\drawable\\filled_box.xml",
+        "source": "F:\\qiyi_git\\Test\\apiDemos\\src\\main\\res\\drawable\\filled_box.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_text_dark.xml",
+        "source": "C:\\Users\\shisong\\.android\\build-cache\\838372c1bc68eb71e6b4270d8188c666c573fbb1\\output\\res\\drawable\\common_google_signin_btn_text_dark.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_ic_mini_controller_mute.xml",
+        "source": "C:\\Users\\shisong\\.android\\build-cache\\39a741ce9bc1798f10e81c3748e7142d3c7b88fe\\output\\res\\drawable\\cast_ic_mini_controller_mute.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\drawable\\photo3.jpg",
+        "source": "F:\\qiyi_git\\Test\\apiDemos\\src\\main\\res\\drawable\\photo3.jpg"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_expand.xml",
+        "source": "C:\\Users\\shisong\\.android\\build-cache\\a749e24ceac9a3f6d0e696df8baf0baf8a8e699e\\output\\res\\drawable\\ic_expand.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_ic_notification_skip_prev.xml",
+        "source": "C:\\Users\\shisong\\.android\\build-cache\\39a741ce9bc1798f10e81c3748e7142d3c7b88fe\\output\\res\\drawable\\cast_ic_notification_skip_prev.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_search_api_material.xml",
+        "source": "C:\\Users\\shisong\\.android\\build-cache\\4432771aebefee61aa7aa09695315c6e4384274f\\output\\res\\drawable\\abc_ic_search_api_material.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_ic_expanded_controller_skip_next.xml",
+        "source": "C:\\Users\\shisong\\.android\\build-cache\\39a741ce9bc1798f10e81c3748e7142d3c7b88fe\\output\\res\\drawable\\cast_ic_expanded_controller_skip_next.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_material.xml",
+        "source": "C:\\Users\\shisong\\.android\\build-cache\\4432771aebefee61aa7aa09695315c6e4384274f\\output\\res\\drawable\\abc_ratingbar_material.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_clear_material.xml",
+        "source": "C:\\Users\\shisong\\.android\\build-cache\\4432771aebefee61aa7aa09695315c6e4384274f\\output\\res\\drawable\\abc_ic_clear_material.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_radio_material.xml",
+        "source": "C:\\Users\\shisong\\.android\\build-cache\\4432771aebefee61aa7aa09695315c6e4384274f\\output\\res\\drawable\\abc_btn_radio_material.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\drawable\\gallery_photo_6.jpg",
+        "source": "F:\\qiyi_git\\Test\\apiDemos\\src\\main\\res\\drawable\\gallery_photo_6.jpg"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_check_material.xml",
+        "source": "C:\\Users\\shisong\\.android\\build-cache\\4432771aebefee61aa7aa09695315c6e4384274f\\output\\res\\drawable\\abc_btn_check_material.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_ic_notification_disconnect.xml",
+        "source": "C:\\Users\\shisong\\.android\\build-cache\\39a741ce9bc1798f10e81c3748e7142d3c7b88fe\\output\\res\\drawable\\cast_ic_notification_disconnect.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_dark.xml",
+        "source": "C:\\Users\\shisong\\.android\\build-cache\\4432771aebefee61aa7aa09695315c6e4384274f\\output\\res\\drawable\\abc_item_background_holo_dark.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_ic_notification_pause.xml",
+        "source": "C:\\Users\\shisong\\.android\\build-cache\\39a741ce9bc1798f10e81c3748e7142d3c7b88fe\\output\\res\\drawable\\cast_ic_notification_pause.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_text_cursor_material.xml",
+        "source": "C:\\Users\\shisong\\.android\\build-cache\\4432771aebefee61aa7aa09695315c6e4384274f\\output\\res\\drawable\\abc_text_cursor_material.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\drawable\\mr_ic_cast_dark.xml",
+        "source": "C:\\Users\\shisong\\.android\\build-cache\\a749e24ceac9a3f6d0e696df8baf0baf8a8e699e\\output\\res\\drawable\\mr_ic_cast_dark.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_ic_mini_controller_play_large.xml",
+        "source": "C:\\Users\\shisong\\.android\\build-cache\\39a741ce9bc1798f10e81c3748e7142d3c7b88fe\\output\\res\\drawable\\cast_ic_mini_controller_play_large.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\drawable\\photo5.jpg",
+        "source": "F:\\qiyi_git\\Test\\apiDemos\\src\\main\\res\\drawable\\photo5.jpg"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\drawable\\frog.gif",
+        "source": "F:\\qiyi_git\\Test\\apiDemos\\src\\main\\res\\drawable\\frog.gif"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\drawable\\sample_thumb_0.jpg",
+        "source": "F:\\qiyi_git\\Test\\apiDemos\\src\\main\\res\\drawable\\sample_thumb_0.jpg"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_light.xml",
+        "source": "C:\\Users\\shisong\\.android\\build-cache\\4432771aebefee61aa7aa09695315c6e4384274f\\output\\res\\drawable\\abc_list_selector_background_transition_holo_light.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_text_dark_focused.xml",
+        "source": "C:\\Users\\shisong\\.android\\build-cache\\838372c1bc68eb71e6b4270d8188c666c573fbb1\\output\\res\\drawable\\common_google_signin_btn_text_dark_focused.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_track_material.xml",
+        "source": "C:\\Users\\shisong\\.android\\build-cache\\4432771aebefee61aa7aa09695315c6e4384274f\\output\\res\\drawable\\abc_seekbar_track_material.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_skip_ad_label_border.xml",
+        "source": "C:\\Users\\shisong\\.android\\build-cache\\39a741ce9bc1798f10e81c3748e7142d3c7b88fe\\output\\res\\drawable\\cast_skip_ad_label_border.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\drawable\\gallery_photo_4.jpg",
+        "source": "F:\\qiyi_git\\Test\\apiDemos\\src\\main\\res\\drawable\\gallery_photo_4.jpg"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_go_search_api_material.xml",
+        "source": "C:\\Users\\shisong\\.android\\build-cache\\4432771aebefee61aa7aa09695315c6e4384274f\\output\\res\\drawable\\abc_ic_go_search_api_material.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\drawable\\reslogo160dpi.png",
+        "source": "F:\\qiyi_git\\Test\\apiDemos\\src\\main\\res\\drawable\\reslogo160dpi.png"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_small_material.xml",
+        "source": "C:\\Users\\shisong\\.android\\build-cache\\4432771aebefee61aa7aa09695315c6e4384274f\\output\\res\\drawable\\abc_ratingbar_small_material.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\drawable\\photo6.jpg",
+        "source": "F:\\qiyi_git\\Test\\apiDemos\\src\\main\\res\\drawable\\photo6.jpg"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_ic_mini_controller_skip_prev.xml",
+        "source": "C:\\Users\\shisong\\.android\\build-cache\\39a741ce9bc1798f10e81c3748e7142d3c7b88fe\\output\\res\\drawable\\cast_ic_mini_controller_skip_prev.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\drawable\\gallery_photo_3.jpg",
+        "source": "F:\\qiyi_git\\Test\\apiDemos\\src\\main\\res\\drawable\\gallery_photo_3.jpg"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_ic_expanded_controller_forward30.xml",
+        "source": "C:\\Users\\shisong\\.android\\build-cache\\39a741ce9bc1798f10e81c3748e7142d3c7b88fe\\output\\res\\drawable\\cast_ic_expanded_controller_forward30.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_dark.xml",
+        "source": "C:\\Users\\shisong\\.android\\build-cache\\4432771aebefee61aa7aa09695315c6e4384274f\\output\\res\\drawable\\abc_list_selector_holo_dark.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\drawable\\mr_ic_audiotrack_light.xml",
+        "source": "C:\\Users\\shisong\\.android\\build-cache\\a749e24ceac9a3f6d0e696df8baf0baf8a8e699e\\output\\res\\drawable\\mr_ic_audiotrack_light.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_default_mtrl_shape.xml",
+        "source": "C:\\Users\\shisong\\.android\\build-cache\\4432771aebefee61aa7aa09695315c6e4384274f\\output\\res\\drawable\\abc_btn_default_mtrl_shape.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_borderless_material.xml",
+        "source": "C:\\Users\\shisong\\.android\\build-cache\\4432771aebefee61aa7aa09695315c6e4384274f\\output\\res\\drawable\\abc_btn_borderless_material.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_ic_expanded_controller_pause.xml",
+        "source": "C:\\Users\\shisong\\.android\\build-cache\\39a741ce9bc1798f10e81c3748e7142d3c7b88fe\\output\\res\\drawable\\cast_ic_expanded_controller_pause.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_icon_dark_focused.xml",
+        "source": "C:\\Users\\shisong\\.android\\build-cache\\838372c1bc68eb71e6b4270d8188c666c573fbb1\\output\\res\\drawable\\common_google_signin_btn_icon_dark_focused.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_ic_notification_rewind.xml",
+        "source": "C:\\Users\\shisong\\.android\\build-cache\\39a741ce9bc1798f10e81c3748e7142d3c7b88fe\\output\\res\\drawable\\cast_ic_notification_rewind.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\drawable\\scrollbar_vertical_track.xml",
+        "source": "F:\\qiyi_git\\Test\\apiDemos\\src\\main\\res\\drawable\\scrollbar_vertical_track.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\drawable\\black_opaque_box.xml",
+        "source": "F:\\qiyi_git\\Test\\apiDemos\\src\\main\\res\\drawable\\black_opaque_box.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\drawable\\gallery_photo_5.jpg",
+        "source": "F:\\qiyi_git\\Test\\apiDemos\\src\\main\\res\\drawable\\gallery_photo_5.jpg"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_1.xml",
+        "source": "F:\\qiyi_git\\Test\\apiDemos\\src\\main\\res\\drawable\\shape_1.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\drawable\\photo4.jpg",
+        "source": "F:\\qiyi_git\\Test\\apiDemos\\src\\main\\res\\drawable\\photo4.jpg"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\drawable\\mr_dialog_material_background_light.xml",
+        "source": "C:\\Users\\shisong\\.android\\build-cache\\a749e24ceac9a3f6d0e696df8baf0baf8a8e699e\\output\\res\\drawable\\mr_dialog_material_background_light.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\drawable\\gallery_photo_2.jpg",
+        "source": "F:\\qiyi_git\\Test\\apiDemos\\src\\main\\res\\drawable\\gallery_photo_2.jpg"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_expanded_controller_seekbar_track.xml",
+        "source": "C:\\Users\\shisong\\.android\\build-cache\\39a741ce9bc1798f10e81c3748e7142d3c7b88fe\\output\\res\\drawable\\cast_expanded_controller_seekbar_track.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_internal_bg.xml",
+        "source": "C:\\Users\\shisong\\.android\\build-cache\\4432771aebefee61aa7aa09695315c6e4384274f\\output\\res\\drawable\\abc_cab_background_internal_bg.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\drawable\\picture_frame.png",
+        "source": "F:\\qiyi_git\\Test\\apiDemos\\src\\main\\res\\drawable\\picture_frame.png"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\drawable\\sample_thumb_1.jpg",
+        "source": "F:\\qiyi_git\\Test\\apiDemos\\src\\main\\res\\drawable\\sample_thumb_1.jpg"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_ic_mini_controller_forward30.xml",
+        "source": "C:\\Users\\shisong\\.android\\build-cache\\39a741ce9bc1798f10e81c3748e7142d3c7b88fe\\output\\res\\drawable\\cast_ic_mini_controller_forward30.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\drawable\\logo160dpi.png",
+        "source": "F:\\qiyi_git\\Test\\apiDemos\\src\\main\\res\\drawable\\logo160dpi.png"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\drawable\\photo2.jpg",
+        "source": "F:\\qiyi_git\\Test\\apiDemos\\src\\main\\res\\drawable\\photo2.jpg"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\drawable\\gallery_background_1.xml",
+        "source": "F:\\qiyi_git\\Test\\apiDemos\\src\\main\\res\\drawable\\gallery_background_1.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_icon_dark.xml",
+        "source": "C:\\Users\\shisong\\.android\\build-cache\\838372c1bc68eb71e6b4270d8188c666c573fbb1\\output\\res\\drawable\\common_google_signin_btn_icon_dark.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\drawable\\mr_ic_play_dark.xml",
+        "source": "C:\\Users\\shisong\\.android\\build-cache\\a749e24ceac9a3f6d0e696df8baf0baf8a8e699e\\output\\res\\drawable\\mr_ic_play_dark.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\drawable\\smlnpatch160dpi.9.png",
+        "source": "F:\\qiyi_git\\Test\\apiDemos\\src\\main\\res\\drawable\\smlnpatch160dpi.9.png"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\drawable\\gallery_photo_7.jpg",
+        "source": "F:\\qiyi_git\\Test\\apiDemos\\src\\main\\res\\drawable\\gallery_photo_7.jpg"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\drawable\\mr_ic_media_route_mono_light.xml",
+        "source": "C:\\Users\\shisong\\.android\\build-cache\\a749e24ceac9a3f6d0e696df8baf0baf8a8e699e\\output\\res\\drawable\\mr_ic_media_route_mono_light.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\drawable\\mr_ic_media_route_mono_dark.xml",
+        "source": "C:\\Users\\shisong\\.android\\build-cache\\a749e24ceac9a3f6d0e696df8baf0baf8a8e699e\\output\\res\\drawable\\mr_ic_media_route_mono_dark.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_ic_notification_play.xml",
+        "source": "C:\\Users\\shisong\\.android\\build-cache\\39a741ce9bc1798f10e81c3748e7142d3c7b88fe\\output\\res\\drawable\\cast_ic_notification_play.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_dark.xml",
+        "source": "C:\\Users\\shisong\\.android\\build-cache\\4432771aebefee61aa7aa09695315c6e4384274f\\output\\res\\drawable\\abc_list_selector_background_transition_holo_dark.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\drawable\\gallery_photo_1.jpg",
+        "source": "F:\\qiyi_git\\Test\\apiDemos\\src\\main\\res\\drawable\\gallery_photo_1.jpg"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_ic_expanded_controller_stop.xml",
+        "source": "C:\\Users\\shisong\\.android\\build-cache\\39a741ce9bc1798f10e81c3748e7142d3c7b88fe\\output\\res\\drawable\\cast_ic_expanded_controller_stop.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_ic_notification_connecting.xml",
+        "source": "C:\\Users\\shisong\\.android\\build-cache\\a76b7874910ac4a13b3dcadb0ada24af4784bcc2\\output\\res\\drawable\\cast_ic_notification_connecting.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_ic_notification_forward10.xml",
+        "source": "C:\\Users\\shisong\\.android\\build-cache\\39a741ce9bc1798f10e81c3748e7142d3c7b88fe\\output\\res\\drawable\\cast_ic_notification_forward10.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_ic_mini_controller_rewind30.xml",
+        "source": "C:\\Users\\shisong\\.android\\build-cache\\39a741ce9bc1798f10e81c3748e7142d3c7b88fe\\output\\res\\drawable\\cast_ic_mini_controller_rewind30.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_ic_notification_rewind10.xml",
+        "source": "C:\\Users\\shisong\\.android\\build-cache\\39a741ce9bc1798f10e81c3748e7142d3c7b88fe\\output\\res\\drawable\\cast_ic_notification_rewind10.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\drawable\\mr_ic_cast_light.xml",
+        "source": "C:\\Users\\shisong\\.android\\build-cache\\a749e24ceac9a3f6d0e696df8baf0baf8a8e699e\\output\\res\\drawable\\mr_ic_cast_light.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_light.xml",
+        "source": "C:\\Users\\shisong\\.android\\build-cache\\4432771aebefee61aa7aa09695315c6e4384274f\\output\\res\\drawable\\abc_list_selector_holo_light.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_expanded_controller_seekbar_thumb.xml",
+        "source": "C:\\Users\\shisong\\.android\\build-cache\\39a741ce9bc1798f10e81c3748e7142d3c7b88fe\\output\\res\\drawable\\cast_expanded_controller_seekbar_thumb.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\drawable\\circular_progress.xml",
+        "source": "F:\\qiyi_git\\Test\\apiDemos\\src\\main\\res\\drawable\\circular_progress.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_ic_mini_controller_play.xml",
+        "source": "C:\\Users\\shisong\\.android\\build-cache\\39a741ce9bc1798f10e81c3748e7142d3c7b88fe\\output\\res\\drawable\\cast_ic_mini_controller_play.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_top_material.xml",
+        "source": "C:\\Users\\shisong\\.android\\build-cache\\4432771aebefee61aa7aa09695315c6e4384274f\\output\\res\\drawable\\abc_cab_background_top_material.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_tab_indicator_material.xml",
+        "source": "C:\\Users\\shisong\\.android\\build-cache\\4432771aebefee61aa7aa09695315c6e4384274f\\output\\res\\drawable\\abc_tab_indicator_material.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\drawable\\magnifying_glass.png",
+        "source": "F:\\qiyi_git\\Test\\apiDemos\\src\\main\\res\\drawable\\magnifying_glass.png"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\drawable\\sample_thumb_2.jpg",
+        "source": "F:\\qiyi_git\\Test\\apiDemos\\src\\main\\res\\drawable\\sample_thumb_2.jpg"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\drawable\\sample_thumb_5.jpg",
+        "source": "F:\\qiyi_git\\Test\\apiDemos\\src\\main\\res\\drawable\\sample_thumb_5.jpg"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_3.xml",
+        "source": "F:\\qiyi_git\\Test\\apiDemos\\src\\main\\res\\drawable\\shape_3.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_ic_expanded_controller_play.xml",
+        "source": "C:\\Users\\shisong\\.android\\build-cache\\39a741ce9bc1798f10e81c3748e7142d3c7b88fe\\output\\res\\drawable\\cast_ic_expanded_controller_play.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\drawable\\sample_6.jpg",
+        "source": "F:\\qiyi_git\\Test\\apiDemos\\src\\main\\res\\drawable\\sample_6.jpg"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_expanded_controller_bg_gradient_light.xml",
+        "source": "C:\\Users\\shisong\\.android\\build-cache\\39a741ce9bc1798f10e81c3748e7142d3c7b88fe\\output\\res\\drawable\\cast_expanded_controller_bg_gradient_light.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\drawable\\mr_ic_media_route_on_dark.xml",
+        "source": "C:\\Users\\shisong\\.android\\build-cache\\a749e24ceac9a3f6d0e696df8baf0baf8a8e699e\\output\\res\\drawable\\mr_ic_media_route_on_dark.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_text_light_focused.xml",
+        "source": "C:\\Users\\shisong\\.android\\build-cache\\838372c1bc68eb71e6b4270d8188c666c573fbb1\\output\\res\\drawable\\common_google_signin_btn_text_light_focused.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_ic_expanded_controller_skip_previous.xml",
+        "source": "C:\\Users\\shisong\\.android\\build-cache\\39a741ce9bc1798f10e81c3748e7142d3c7b88fe\\output\\res\\drawable\\cast_ic_expanded_controller_skip_previous.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_ic_notification_forward.xml",
+        "source": "C:\\Users\\shisong\\.android\\build-cache\\39a741ce9bc1798f10e81c3748e7142d3c7b88fe\\output\\res\\drawable\\cast_ic_notification_forward.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\drawable\\sample_0.jpg",
+        "source": "F:\\qiyi_git\\Test\\apiDemos\\src\\main\\res\\drawable\\sample_0.jpg"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_icon_light.xml",
+        "source": "C:\\Users\\shisong\\.android\\build-cache\\838372c1bc68eb71e6b4270d8188c666c573fbb1\\output\\res\\drawable\\common_google_signin_btn_icon_light.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_expanded_controller_actionbar_bg_gradient_light.xml",
+        "source": "C:\\Users\\shisong\\.android\\build-cache\\39a741ce9bc1798f10e81c3748e7142d3c7b88fe\\output\\res\\drawable\\cast_expanded_controller_actionbar_bg_gradient_light.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_light.xml",
+        "source": "C:\\Users\\shisong\\.android\\build-cache\\4432771aebefee61aa7aa09695315c6e4384274f\\output\\res\\drawable\\abc_item_background_holo_light.xml"
+    },
+    {
+        "merged": "F:\\qiyi_git\\Test\\apiDemos\\build\\intermediates\\res\\merged\\debug\\drawable\\sample_3.jpg",
+        "source": "F:\\qiyi_git\\Test\\apiDemos\\src\\main\\res\\drawable\\sample_3.jpg"
+    }
+]

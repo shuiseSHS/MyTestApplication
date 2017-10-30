@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-vector
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:drawable="@drawable/svg1">
+    <target
+        android:name="line_center"
+        android:animation="@animator/anim_pathend"/>
+
+    <target
+        android:name="line_circle"
+        android:animation="@animator/anim_pathend_300"/>
+
+</animated-vector>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.jsonparser.MainActivity">
+
+    <Button
+        android:id="@+id/btn_load"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_alignParentRight="true"
+        android:onClick="requestUrl"
+        android:text="加载"/>
+
+    <EditText
+        android:id="@+id/txt_url"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_toLeftOf="@id/btn_load"
+        android:lines="1"
+        android:singleLine="true"/>
+
+    <TextView
+        android:id="@+id/txt1"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_below="@id/txt_url"
+        android:gravity="center"
+        android:text="List路径"/>
+
+    <EditText
+        android:id="@+id/txt_path"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/txt_url"
+        android:layout_toRightOf="@id/txt1"/>
+
+    <TextView
+        android:id="@+id/txt2"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_below="@id/txt_path"
+        android:gravity="center"
+        android:text="属性key值"/>
+
+    <EditText
+        android:id="@+id/txt_keys"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/txt_path"
+        android:layout_toRightOf="@id/txt2"/>
+
+    <ListView
+        android:id="@+id/list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/txt_keys"
+        android:dividerHeight="0dp"
+        android:listSelector="@null">
+    </ListView>
+
+    <TextView
+        android:id="@+id/error"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/txt_keys"
+        android:dividerHeight="0dp"
+        android:listSelector="@null">
+    </TextView>
+
+</RelativeLayout>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="shsitem">
+        <attr name="value_a" format="boolean"/>
+        <attr name="value_b" format="integer"/>
+        <attr name="value_c" format="string"/>
+        <attr name="value_d" format="enum">
+            <enum name="d_1" value="1"/>
+            <enum name="d_2" value="2"/>
+            <enum name="d_3" value="3"/>
+            <enum name="d_4" value="4"/>
+        </attr>
+    </declare-styleable>
+
+    <declare-styleable name="test">
+        <attr name="test_a" format="boolean"/>
+    </declare-styleable>
+
+    <attr name="iconSize" format="dimension"/>
+    <attr name="iconMargin" format="dimension"/>
+    <attr name="iconSrc" format="reference"/>
+    <attr name="duration_max" format="integer"/>
+    <declare-styleable name="JCameraView">
+        <attr name="iconSize"/>
+        <attr name="iconMargin"/>
+        <attr name="iconSrc"/>
+        <attr name="duration_max"/>
+    </declare-styleable>
+
+</resources>

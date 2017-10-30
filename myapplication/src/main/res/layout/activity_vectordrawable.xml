@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:fresco="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/img"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/va_face"/>
+
+    <com.example.view.WhatButton
+        android:id="@+id/btn_test"
+        android:layout_width="80dp"
+        android:layout_height="30dp"
+        android:layout_below="@id/img"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="10dp"/>
+
+    <com.facebook.drawee.view.SimpleDraweeView
+        android:id="@+id/frsco_img1"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/testgif"
+        fresco:roundBottomLeft="false"
+        fresco:roundBottomRight="false"
+        fresco:roundWithOverlayColor="#333333"
+        fresco:roundedCornerRadius="5dp"
+        fresco:roundingBorderColor="#222222"
+        fresco:roundingBorderWidth="1dp"/>
+
+    <ImageView
+        android:id="@+id/img_lottie"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/btn_test"
+        android:layout_centerHorizontal="true"
+        android:background="#3300FF00"/>
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/img_lottie1"
+        android:layout_width="72dp"
+        android:layout_height="31dp"
+        android:layout_below="@id/btn_test"
+        android:background="#33FF0000"/>
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/img_lottie2"
+        android:layout_width="72dp"
+        android:layout_height="41dp"
+        android:layout_below="@id/img_lottie1"
+        android:background="#3300FF00"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:background="#FFFFFFFF"
+        android:clipChildren="false"
+        android:orientation="horizontal">
+
+        <com.example.vectordrawable.NaviUIButton
+            android:id="@+id/navi0"
+            style="@style/navi_btn_style"
+            android:text="推荐"/>
+
+        <com.example.vectordrawable.NaviUIButton
+            android:id="@+id/navi1"
+            style="@style/navi_btn_style"
+            android:text="乐活"/>
+
+        <com.example.vectordrawable.NaviUIButton
+            android:id="@+id/navi2"
+            style="@style/navi_btn_style"
+            android:layout_gravity="bottom"
+            android:text="VIP会员"/>
+
+        <com.example.vectordrawable.NaviUIButton
+            android:id="@+id/navi3"
+            style="@style/navi_btn_style"
+            android:text="我的"/>
+
+        <com.example.vectordrawable.NaviUIButton
+            android:id="@+id/navi4"
+            style="@style/navi_btn_style"
+            android:text="泡泡"/>
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/testImage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:adjustViewBounds="true"
+        android:background="@drawable/df_1"
+        android:onClick="setImage"
+        android:scaleType="centerCrop"/>
+
+    <include
+        android:id="@+id/testIncludeLayoutOut"
+        layout="@layout/test_include"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="#FF00FF00"/>
+
+</RelativeLayout>
