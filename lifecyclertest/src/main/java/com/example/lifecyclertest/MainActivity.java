@@ -1,7 +1,10 @@
 package com.example.lifecyclertest;
 
+import android.arch.lifecycle.MutableLiveData;
+import android.arch.lifecycle.Observer;
 import android.arch.persistence.room.Room;
 import android.os.Bundle;
+import android.support.annotation.Nullable;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.ListView;
@@ -20,6 +23,7 @@ public class MainActivity extends AppCompatActivity {
     MyAdapter myAdapter;
     FruitDao fruitDao;
     List<Fruit> datas;
+    MutableLiveData<List<Fruit>> listLiveData;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -28,6 +32,17 @@ public class MainActivity extends AppCompatActivity {
         listView = findViewById(R.id.listView);
         myAdapter = new MyAdapter(this);
         listView.setAdapter(myAdapter);
+
+//        FruitViewModel fruitViewModel = ViewModelProviders.of(this).get(FruitViewModel.class);
+//        listLiveData = fruitViewModel.getFruits(this);
+        listLiveData = new MutableLiveData<>();
+        listLiveData.observe(this, new Observer<List<Fruit>>() {
+            @Override
+            public void onChanged(@Nullable List<Fruit> fruits) {
+                myAdapter.setDatas(fruits);
+                myAdapter.notifyDataSetChanged();
+            }
+        });
 
         AppDataBase db = Room.databaseBuilder(getApplicationContext(), AppDataBase.class, "database-name").build();
         fruitDao = db.fruitDao();
@@ -65,12 +80,14 @@ public class MainActivity extends AppCompatActivity {
 
     private void update() {
         datas = fruitDao.getAll();
-        runOnUiThread(new Runnable() {
-            @Override
-            public void run() {
-                myAdapter.setDatas(datas);
-                myAdapter.notifyDataSetChanged();
-            }
-        });
+//        runOnUiThread(new Runnable() {
+//            @Override
+//            public void run() {
+//                myAdapter.setDatas(datas);
+//                myAdapter.notifyDataSetChanged();
+//            }
+//        });
+
+        listLiveData.postValue(datas);
     }
 }
