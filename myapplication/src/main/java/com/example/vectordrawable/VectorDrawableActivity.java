@@ -48,9 +48,6 @@ public class VectorDrawableActivity extends Activity implements View.OnClickList
         Fresco.initialize(this);//放在加载布局之前
         setContentView(R.layout.activity_vectordrawable);
 
-        Log.e("######", "" + findViewById(R.id.testIncludeLayoutOut));
-        Log.e("######", "" + findViewById(R.id.testIncludeLayout));
-
         mSimpleDraweeView = (SimpleDraweeView) findViewById(R.id.frsco_img1);
         loadGifPicInApp(mSimpleDraweeView, R.drawable.phone_navi_find_selected);
 

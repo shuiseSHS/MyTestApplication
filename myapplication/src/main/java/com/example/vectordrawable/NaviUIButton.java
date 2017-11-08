@@ -26,7 +26,7 @@ import static android.view.ViewGroup.LayoutParams.WRAP_CONTENT;
 public class NaviUIButton extends RelativeLayout {
 
     public static final int[] STATES_SELECTED = new int[]{android.R.attr.state_selected};
-    public static final int[] STATES_NO = new int[]{};
+    public static final int[] STATES_NO = new int[] {};
 
     private ImageView imageView;
     private Drawable mDrawable;
@@ -95,7 +95,6 @@ public class NaviUIButton extends RelativeLayout {
         textView = new TextView(getContext());
         textView.setClickable(false);
         textView.setTextSize(TypedValue.COMPLEX_UNIT_SP, 11);
-        textView.setId(123476);
         LayoutParams textParams = new LayoutParams(WRAP_CONTENT, WRAP_CONTENT);
         textParams.addRule(RelativeLayout.ALIGN_PARENT_BOTTOM, RelativeLayout.TRUE);
         textParams.addRule(RelativeLayout.CENTER_HORIZONTAL, RelativeLayout.TRUE);
@@ -118,7 +117,6 @@ public class NaviUIButton extends RelativeLayout {
         }
 
         View midView = new View(getContext());
-        midView.setId(4423421);
         LayoutParams mideParams = new LayoutParams(0, 0);
         mideParams.addRule(RelativeLayout.CENTER_HORIZONTAL, RelativeLayout.TRUE);
         addView(midView, mideParams);
