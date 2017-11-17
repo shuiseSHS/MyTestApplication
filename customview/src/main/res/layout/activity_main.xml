@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.customview.MainActivity">
+
+    <com.example.customview.IconViewClose
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        app:iconPadding="10dp"
+        app:iconStrokeWidth="1.5dp"
+        app:lineColor="#FF999999"/>
+
+    <com.example.customview.IconViewClose
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        app:circleBg="true"
+        app:circleColor="#00000000"
+        app:circlePadding="1dp"
+        app:circleStrokeColor="#FF999999"
+        app:circleStrokeWidth="1dp"
+        app:iconPadding="18dp"
+        app:iconStrokeWidth="1dp"
+        app:lineColor="#FF999999"/>
+
+</RelativeLayout>

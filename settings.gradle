@@ -1,1 +1,1 @@
-include ':app', ':socketserver', ':socketclient', ':myapplication', ':floatwindow', ':annotationprocessor', ':websiteapps', ':shortcuttest', ':socketinandroid', ':testdelloader', ':lib', ':jsonparser', ':dynamicproxytest', ':lifecyclertest'
+include ':app', ':socketserver', ':socketclient', ':myapplication', ':floatwindow', ':annotationprocessor', ':websiteapps', ':shortcuttest', ':socketinandroid', ':testdelloader', ':lib', ':jsonparser', ':dynamicproxytest', ':lifecyclertest', ':customview'

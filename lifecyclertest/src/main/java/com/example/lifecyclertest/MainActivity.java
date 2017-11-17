@@ -2,6 +2,7 @@ package com.example.lifecyclertest;
 
 import android.arch.lifecycle.MutableLiveData;
 import android.arch.lifecycle.Observer;
+import android.arch.lifecycle.ViewModelProviders;
 import android.arch.persistence.room.Room;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
@@ -13,11 +14,12 @@ import com.example.lifecyclertest.adapter.MyAdapter;
 import com.example.lifecyclertest.database.AppDataBase;
 import com.example.lifecyclertest.database.Fruit;
 import com.example.lifecyclertest.database.FruitDao;
+import com.example.lifecyclertest.viewmodel.FruitViewModel;
 
 import java.util.Date;
 import java.util.List;
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends AppCompatActivity implements Observer<List<Fruit>> {
 
     ListView listView;
     MyAdapter myAdapter;
@@ -33,24 +35,12 @@ public class MainActivity extends AppCompatActivity {
         myAdapter = new MyAdapter(this);
         listView.setAdapter(myAdapter);
 
-//        FruitViewModel fruitViewModel = ViewModelProviders.of(this).get(FruitViewModel.class);
-//        listLiveData = fruitViewModel.getFruits(this);
-        listLiveData = new MutableLiveData<>();
-        listLiveData.observe(this, new Observer<List<Fruit>>() {
-            @Override
-            public void onChanged(@Nullable List<Fruit> fruits) {
-                myAdapter.setDatas(fruits);
-                myAdapter.notifyDataSetChanged();
-            }
-        });
+        FruitViewModel fruitViewModel = ViewModelProviders.of(this).get(FruitViewModel.class);
+        listLiveData = fruitViewModel.getFruits();
+        listLiveData.observe(this, this);
 
         AppDataBase db = Room.databaseBuilder(getApplicationContext(), AppDataBase.class, "database-name").build();
         fruitDao = db.fruitDao();
-        new Thread() {
-            public void run() {
-                update();
-            }
-        }.start();
     }
 
     public void add(View view) {
@@ -80,14 +70,12 @@ public class MainActivity extends AppCompatActivity {
 
     private void update() {
         datas = fruitDao.getAll();
-//        runOnUiThread(new Runnable() {
-//            @Override
-//            public void run() {
-//                myAdapter.setDatas(datas);
-//                myAdapter.notifyDataSetChanged();
-//            }
-//        });
-
         listLiveData.postValue(datas);
+    }
+
+    @Override
+    public void onChanged(@Nullable List<Fruit> fruits) {
+        myAdapter.setDatas(fruits);
+        myAdapter.notifyDataSetChanged();
     }
 }
