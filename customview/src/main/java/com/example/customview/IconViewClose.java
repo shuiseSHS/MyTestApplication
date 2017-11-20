@@ -18,7 +18,6 @@ import android.view.View;
 public class IconViewClose extends View {
 
     private RectF mRectF;
-    private int iconSize;
     private boolean circleBg;
     private int circleColor;
     private int circleStrokeColor;
@@ -64,7 +63,6 @@ public class IconViewClose extends View {
             lineColor1 = a.getColor(R.styleable.IconViewClose_lineColor1, lineColor);
             lineColor2 = a.getColor(R.styleable.IconViewClose_lineColor2, lineColor);
 
-            iconSize = a.getDimensionPixelSize(R.styleable.IconViewClose_iconSize, 0);
             strokeWidth = a.getDimensionPixelSize(R.styleable.IconViewClose_iconStrokeWidth, 0);
             circleStrokeWidth = a.getDimensionPixelSize(R.styleable.IconViewClose_circleStrokeWidth, 0);
             circlePadding = a.getDimensionPixelSize(R.styleable.IconViewClose_circlePadding, 0);
@@ -134,5 +132,75 @@ public class IconViewClose extends View {
             paint1.setStrokeCap(Paint.Cap.ROUND);
             paint1.setColor(lineColor1);
         }
+    }
+
+    public void setCircleBg(boolean circleBg) {
+        this.circleBg = circleBg;
+        rePaint();
+    }
+
+    public void setCircleColor(int circleColor) {
+        this.circleColor = circleColor;
+        rePaint();
+    }
+
+    public void setCircleStrokeColor(int circleStrokeColor) {
+        this.circleStrokeColor = circleStrokeColor;
+        rePaint();
+    }
+
+    public void setCircleStrokeWidth(int circleStrokeWidth) {
+        this.circleStrokeWidth = circleStrokeWidth;
+        rePaint();
+    }
+
+    public void setCirclePadding(int circlePadding) {
+        this.circlePadding = circlePadding;
+        rePaint();
+    }
+
+    public void setStrokeWidth(int strokeWidth) {
+        this.strokeWidth = strokeWidth;
+        rePaint();
+    }
+
+    public void setLineColor(int lineColor) {
+        this.lineColor = lineColor;
+        this.lineColor1 = lineColor;
+        this.lineColor2 = lineColor;
+        rePaint();
+    }
+
+    public void setLineColorPressed(int lineColorPressed) {
+        this.lineColorPressed = lineColorPressed;
+        rePaint();
+    }
+
+    public void setLineColor1(int lineColor1) {
+        this.lineColor1 = lineColor1;
+        rePaint();
+    }
+
+    public void setLineColor2(int lineColor2) {
+        this.lineColor2 = lineColor2;
+        rePaint();
+    }
+
+    public void setIconPadding(int iconPadding) {
+        this.iconPadding = iconPadding;
+        rePaint();
+    }
+
+    public void rePaint() {
+        mRectF = null;
+        paint1 = null;
+        paint2 = null;
+        paintC = null;
+        paintCS = null;
+        initPaint1();
+        initPaint2();
+        initPaintC();
+        initPaintCS();
+        invalidate();
     }
 }
