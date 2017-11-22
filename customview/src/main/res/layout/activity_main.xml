@@ -26,13 +26,13 @@
             android:layout_centerInParent="true"
             android:layout_margin="20dp"
             app:circleBg="true"
-            app:circleColor="#00000000"
+            app:circleColor="#55000000"
             app:circlePadding="1dp"
-            app:circleStrokeColor="#FF999999"
+            app:circleStrokeColor="#FF000000"
             app:circleStrokeWidth="1dp"
             app:iconPadding="18dp"
             app:iconStrokeWidth="1dp"
-            app:lineColor="#FF999999"/>
+            app:lineColor="#FFFF0000"/>
     </RelativeLayout>
 
     <LinearLayout
@@ -48,7 +48,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="width(DP): "/>
+                android:text="图片宽度(DP): "/>
 
             <EditText
                 android:id="@+id/txt_width"
@@ -68,7 +68,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="height(DP): "/>
+                android:text="图片高度(DP): "/>
 
             <EditText
                 android:id="@+id/txt_height"
@@ -88,14 +88,14 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="lineColor: #"/>
+            android:text="图标颜色: #"/>
 
         <EditText
             android:id="@+id/txt_lineColor"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:singleLine="true"
-            android:text="FF999999"/>
+            android:text="FFFF0000"/>
     </LinearLayout>
 
     <LinearLayout
@@ -111,7 +111,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="iconStrokeWidth(DP): "/>
+                android:text="图标粗细(DP): "/>
 
             <EditText
                 android:id="@+id/txt_iconStrokeWidth"
@@ -131,7 +131,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="iconPadding(DP): "/>
+                android:text="四周留白(DP): "/>
 
             <EditText
                 android:id="@+id/txt_iconPadding"
@@ -151,7 +151,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="circleBg: "/>
+            android:text="加入圆形背景: "/>
 
         <CheckBox
             android:id="@+id/checkbox"
@@ -173,14 +173,14 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="circleColor: #"/>
+                android:text="圆形背景颜色: #"/>
 
             <EditText
                 android:id="@+id/txt_circleColor"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:singleLine="true"
-                android:text="00000000"/>
+                android:text="55000000"/>
         </LinearLayout>
 
         <LinearLayout
@@ -190,7 +190,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="circlePadding(DP): "/>
+                android:text="圆形背景四周留白(DP): "/>
 
             <EditText
                 android:id="@+id/txt_circlePadding"
@@ -208,14 +208,14 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="circleStrokeColor: #"/>
+                android:text="圆形描边颜色: #"/>
 
             <EditText
                 android:id="@+id/txt_circleStrokeColor"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:singleLine="true"
-                android:text="FF999999"/>
+                android:text="FF000000"/>
         </LinearLayout>
 
         <LinearLayout
@@ -225,7 +225,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="circleStrokeWidth(DP): "/>
+                android:text="圆形描边粗细(DP): "/>
 
             <EditText
                 android:id="@+id/txt_circleStrokeWidth"
