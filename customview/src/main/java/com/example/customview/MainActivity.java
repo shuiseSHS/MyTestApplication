@@ -9,6 +9,8 @@ import android.content.pm.PackageManager;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.v4.app.ActivityCompat;
+import android.text.InputFilter;
+import android.text.Spanned;
 import android.util.Log;
 import android.view.View;
 import android.view.ViewGroup;
@@ -27,6 +29,7 @@ public class MainActivity extends Activity implements View.OnFocusChangeListener
         ActivityCompat.OnRequestPermissionsResultCallback {
 
     private IconViewClose icon;
+    private BackgroundView backgroundView;
     private EditText txt_width;
     private EditText txt_height;
     private EditText txt_lineColor;
@@ -45,6 +48,7 @@ public class MainActivity extends Activity implements View.OnFocusChangeListener
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         icon = findViewById(R.id.iconView);
+        backgroundView = findViewById(R.id.backgroundView);
         layoutParams = icon.getLayoutParams();
 
         txt_width = findViewById(R.id.txt_width);
@@ -59,15 +63,20 @@ public class MainActivity extends Activity implements View.OnFocusChangeListener
         checkbox = findViewById(R.id.checkbox);
         checkbox.setOnCheckedChangeListener(this);
 
-        txt_width.setOnFocusChangeListener(this);
-        txt_height.setOnFocusChangeListener(this);
-        txt_lineColor.setOnFocusChangeListener(this);
-        txt_iconStrokeWidth.setOnFocusChangeListener(this);
-        txt_iconPadding.setOnFocusChangeListener(this);
-        txt_circleColor.setOnFocusChangeListener(this);
-        txt_circlePadding.setOnFocusChangeListener(this);
-        txt_circleStrokeColor.setOnFocusChangeListener(this);
-        txt_circleStrokeWidth.setOnFocusChangeListener(this);
+        setEditTextListener(txt_width);
+        setEditTextListener(txt_height);
+        setEditTextListener(txt_lineColor);
+        setEditTextListener(txt_iconStrokeWidth);
+        setEditTextListener(txt_iconPadding);
+        setEditTextListener(txt_circleColor);
+        setEditTextListener(txt_circlePadding);
+        setEditTextListener(txt_circleStrokeColor);
+        setEditTextListener(txt_circleStrokeWidth);
+    }
+
+    private void setEditTextListener(EditText editText) {
+        editText.setFilters(new InputFilter[]{lengthFilter});
+        editText.setOnFocusChangeListener(this);
     }
 
     @Override
@@ -77,40 +86,45 @@ public class MainActivity extends Activity implements View.OnFocusChangeListener
             return;
         }
 
-        EditText txt = (EditText) v;
-        String value = txt.getText().toString();
-        switch (txt.getId()) {
-            case R.id.txt_width:
-                layoutParams.width = toPx(value);
-                icon.requestLayout();
-                icon.rePaint();
-                break;
-            case R.id.txt_height:
-                layoutParams.height = toPx(value);
-                icon.requestLayout();
-                icon.rePaint();
-                break;
-            case R.id.txt_lineColor:
-                icon.setLineColor((int) Long.parseLong(value, 16));
-                break;
-            case R.id.txt_circleColor:
-                icon.setCircleColor((int) Long.parseLong(value, 16));
-                break;
-            case R.id.txt_circleStrokeColor:
-                icon.setCircleStrokeColor((int) Long.parseLong(value, 16));
-                break;
-            case R.id.txt_iconPadding:
-                icon.setIconPadding(toPx(value));
-                break;
-            case R.id.txt_circlePadding:
-                icon.setCirclePadding(toPx(value));
-                break;
-            case R.id.txt_circleStrokeWidth:
-                icon.setCircleStrokeWidth(toPx(value));
-                break;
-            case R.id.txt_iconStrokeWidth:
-                icon.setStrokeWidth(toPx(value));
-                break;
+        try {
+            EditText txt = (EditText) v;
+            String value = txt.getText().toString();
+            switch (txt.getId()) {
+                case R.id.txt_width:
+                    layoutParams.width = toPx(value);
+                    icon.requestLayout();
+                    icon.rePaint();
+                    backgroundView.setLayoutParams(layoutParams);
+                    break;
+                case R.id.txt_height:
+                    layoutParams.height = toPx(value);
+                    icon.requestLayout();
+                    icon.rePaint();
+                    break;
+                case R.id.txt_lineColor:
+                    icon.setLineColor((int) Long.parseLong(value, 16));
+                    break;
+                case R.id.txt_circleColor:
+                    icon.setCircleColor((int) Long.parseLong(value, 16));
+                    break;
+                case R.id.txt_circleStrokeColor:
+                    icon.setCircleStrokeColor((int) Long.parseLong(value, 16));
+                    break;
+                case R.id.txt_iconPadding:
+                    icon.setIconPadding(toPx(value));
+                    break;
+                case R.id.txt_circlePadding:
+                    icon.setCirclePadding(toPx(value));
+                    break;
+                case R.id.txt_circleStrokeWidth:
+                    icon.setCircleStrokeWidth(toPx(value));
+                    break;
+                case R.id.txt_iconStrokeWidth:
+                    icon.setStrokeWidth(toPx(value));
+                    break;
+            }
+        } catch (Exception e) {
+            Toast.makeText(this, "输入格式有误", Toast.LENGTH_SHORT).show();
         }
     }
 
@@ -169,8 +183,8 @@ public class MainActivity extends Activity implements View.OnFocusChangeListener
 
     private void saveIcon() {
         icon.setDrawingCacheEnabled(true);
-        if (BitmapUtil.saveBitmapToSdCard(icon.getDrawingCache(), "AAAAAA")) {
-            Toast.makeText(this, "图片已经输出到SD卡根目录", Toast.LENGTH_SHORT).show();
+        if (BitmapUtil.saveBitmapToSdCard(icon.getDrawingCache(), "iconView")) {
+            Toast.makeText(this, "图片已经输出到SD卡根目录:iconView.png", Toast.LENGTH_SHORT).show();
         } else {
             Toast.makeText(this, "请", Toast.LENGTH_SHORT).show();
         }
@@ -185,4 +199,28 @@ public class MainActivity extends Activity implements View.OnFocusChangeListener
             saveIcon();
         }
     }
+
+    /**
+     * 设置小数位数控制
+     */
+    private InputFilter lengthFilter = new InputFilter() {
+        public CharSequence filter(CharSequence source, int start, int end, Spanned dest, int dstart, int dend) {
+            if ("".equals(source.toString())) {
+                return null;
+            }
+            String dValue = dest.toString();
+            if (dest.length() >= 8) {
+                return "";
+            }
+            try {
+                long number = Long.parseLong(dValue + source, 16);
+                Log.d("###", ": " + number);
+                return null; // 返回null代表使用原始输入
+            } catch (Exception e) {
+                e.printStackTrace();
+                return ""; // 空字符串代替输入
+            }
+        }
+    };
+
 }

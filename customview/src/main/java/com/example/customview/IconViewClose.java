@@ -9,6 +9,7 @@ import android.graphics.RectF;
 import android.os.Build;
 import android.support.annotation.Nullable;
 import android.util.AttributeSet;
+import android.view.MotionEvent;
 import android.view.View;
 
 /**
@@ -33,6 +34,8 @@ public class IconViewClose extends View {
     Paint paint2;
     Paint paintC;
     Paint paintCS;
+
+    private boolean isPressed;
 
     public IconViewClose(Context context) {
         super(context);
@@ -63,8 +66,8 @@ public class IconViewClose extends View {
             lineColor1 = a.getColor(R.styleable.IconViewClose_lineColor1, lineColor);
             lineColor2 = a.getColor(R.styleable.IconViewClose_lineColor2, lineColor);
 
-            strokeWidth = a.getDimensionPixelSize(R.styleable.IconViewClose_iconStrokeWidth, 0);
-            circleStrokeWidth = a.getDimensionPixelSize(R.styleable.IconViewClose_circleStrokeWidth, 0);
+            strokeWidth = a.getDimensionPixelSize(R.styleable.IconViewClose_iconStrokeWidth, -1);
+            circleStrokeWidth = a.getDimensionPixelSize(R.styleable.IconViewClose_circleStrokeWidth, -1);
             circlePadding = a.getDimensionPixelSize(R.styleable.IconViewClose_circlePadding, 0);
 
             iconPadding = a.getDimensionPixelSize(R.styleable.IconViewClose_iconPadding, 0);
@@ -73,25 +76,50 @@ public class IconViewClose extends View {
             circleBg = a.getBoolean(R.styleable.IconViewClose_circleBg, false);
             a.recycle();
         }
+
+        initPaint1();
+        initPaint2();
+        initPaintC();
+        initPaintCS();
+        mRectF = new RectF();
+    }
+
+    @Override
+    protected void onLayout(boolean changed, int left, int top, int right, int bottom) {
+        super.onLayout(changed, left, top, right, bottom);
+        mRectF.set(circlePadding, circlePadding, getWidth() - circlePadding, getHeight() - circlePadding);
     }
 
     @Override
     protected void onDraw(Canvas canvas) {
         super.onDraw(canvas);
-        if (circleBg) {
-            initPaintC();
-            initPaintCS();
-            if (mRectF == null) {
-                mRectF = new RectF(circlePadding, circlePadding, getWidth() - circlePadding, getHeight() - circlePadding);
-            }
-            canvas.drawOval(mRectF, paintC);
-            canvas.drawOval(mRectF, paintCS);
+        if (isPressed) {
+            return;
         }
 
-        initPaint1();
-        initPaint2();
+        if (circleBg) {
+            canvas.drawOval(mRectF, paintC);
+            if (circleStrokeWidth > 0) {
+                canvas.drawOval(mRectF, paintCS);
+            }
+        }
         canvas.drawLine(iconPadding, iconPadding, getWidth() - iconPadding, getHeight() - iconPadding, paint1);
         canvas.drawLine(getWidth() - iconPadding, iconPadding, iconPadding, getHeight() - iconPadding, paint2);
+    }
+
+    @Override
+    public boolean onTouchEvent(MotionEvent event) {
+        switch (event.getAction()) {
+            case MotionEvent.ACTION_DOWN:
+                isPressed = true;
+                invalidate();
+                break;
+            case MotionEvent.ACTION_UP:
+                isPressed = false;
+                invalidate();
+                break;
+        }
+        return true;
     }
 
     private void initPaintCS() {
@@ -197,10 +225,12 @@ public class IconViewClose extends View {
         paint2 = null;
         paintC = null;
         paintCS = null;
+
         initPaint1();
         initPaint2();
         initPaintC();
         initPaintCS();
+        mRectF = new RectF(circlePadding, circlePadding, getWidth() - circlePadding, getHeight() - circlePadding);
         invalidate();
     }
 }

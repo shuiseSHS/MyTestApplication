@@ -6,25 +6,34 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:paddingLeft="10dp"
-    android:paddingRight="10dp"
     tools:context="com.example.customview.MainActivity">
 
-    <com.example.customview.IconViewClose
-        android:id="@+id/iconView"
-        android:layout_width="48dp"
-        android:layout_height="48dp"
-        android:layout_gravity="center_horizontal"
-        android:layout_margin="10dp"
-        android:background="@drawable/shape1"
-        app:circleBg="true"
-        app:circleColor="#00000000"
-        app:circlePadding="1dp"
-        app:circleStrokeColor="#FF999999"
-        app:circleStrokeWidth="1dp"
-        app:iconPadding="18dp"
-        app:iconStrokeWidth="1dp"
-        app:lineColor="#FF999999"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FF373737">
+
+        <com.example.customview.BackgroundView
+            android:id="@+id/backgroundView"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_centerInParent="true"/>
+
+        <com.example.customview.IconViewClose
+            android:id="@+id/iconView"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_centerInParent="true"
+            android:layout_margin="20dp"
+            app:circleBg="true"
+            app:circleColor="#00000000"
+            app:circlePadding="1dp"
+            app:circleStrokeColor="#FF999999"
+            app:circleStrokeWidth="1dp"
+            app:iconPadding="18dp"
+            app:iconStrokeWidth="1dp"
+            app:lineColor="#FF999999"/>
+    </RelativeLayout>
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -85,7 +94,7 @@
             android:id="@+id/txt_lineColor"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:inputType="number"
+            android:singleLine="true"
             android:text="FF999999"/>
     </LinearLayout>
 
