@@ -8,18 +8,51 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <attr name="iconStrokeWidth" format="dimension"/>
+    <attr name="iconPadding" format="dimension"/>
+    <attr name="iconWidth" format="dimension"/>
+    <attr name="lineColor" format="color"/>
+    <attr name="lineColorPressed" format="color"/>
+    <attr name="lineColor1" format="color"/>
+    <attr name="lineColor2" format="color"/>
+    <attr name="circleBg" format="boolean"/>
+    <attr name="circleColor" format="color"/>
+    <attr name="circleStrokeColor" format="color"/>
+    <attr name="circleStrokeWidth" format="dimension"/>
+    <attr name="circlePadding" format="dimension"/>
+    <attr name="arrowDirection" format="enum">
+        <enum name="LEFT" value="1"/>
+        <enum name="UP" value="2"/>
+        <enum name="RIGHT" value="3"/>
+        <enum name="DOWN" value="4"/>
+    </attr>
+
     <declare-styleable name="IconViewClose">
-        <attr name="iconStrokeWidth" format="dimension"/>
-        <attr name="iconPadding" format="dimension"/>
-        <attr name="lineColor" format="color"/>
-        <attr name="lineColorPressed" format="color"/>
-        <attr name="lineColor1" format="color"/>
-        <attr name="lineColor2" format="color"/>
-        <attr name="circleBg" format="boolean"/>
-        <attr name="circleColor" format="color"/>
-        <attr name="circleStrokeColor" format="color"/>
-        <attr name="circleStrokeWidth" format="dimension"/>
-        <attr name="circlePadding" format="dimension"/>
+        <attr name="iconStrokeWidth"/>
+        <attr name="iconPadding"/>
+        <attr name="lineColor"/>
+        <attr name="lineColorPressed"/>
+        <attr name="lineColor1"/>
+        <attr name="lineColor2"/>
+        <attr name="circleBg"/>
+        <attr name="circleColor"/>
+        <attr name="circleStrokeColor"/>
+        <attr name="circleStrokeWidth"/>
+        <attr name="circlePadding"/>
+    </declare-styleable>
+
+    <declare-styleable name="IconViewArrow">
+        <attr name="arrowDirection"/>
+        <attr name="iconStrokeWidth"/>
+        <attr name="iconPadding"/>
+        <attr name="iconWidth"/>
+        <attr name="lineColor"/>
+        <attr name="lineColorPressed"/>
+        <attr name="circleBg"/>
+        <attr name="circleColor"/>
+        <attr name="circleStrokeColor"/>
+        <attr name="circleStrokeWidth"/>
+        <attr name="circlePadding"/>
     </declare-styleable>
 
 </resources>

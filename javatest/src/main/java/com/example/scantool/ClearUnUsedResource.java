@@ -15,9 +15,9 @@ import java.util.jar.JarFile;
 
 public class ClearUnUsedResource {
 
-    private static boolean REAL_DEL = true; // 是否真的删除文件
+    private static boolean REAL_DEL = false; // 是否真的删除文件
 
-    private final static boolean DEL_JAVA = false; // 是否删除java文件
+    private final static boolean DEL_JAVA = true; // 是否删除java文件
 
     private final static boolean NEED_READ_JAR = false; // 是否需要扫描jar
 

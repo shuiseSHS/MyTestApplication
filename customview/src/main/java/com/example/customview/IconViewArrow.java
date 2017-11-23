@@ -14,9 +14,14 @@ import android.view.View;
 
 /**
  * Created by shisong on 2017/11/15.
- * 自定义关闭图标
+ * 自定义箭头图标
  */
-public class IconViewClose extends View {
+public class IconViewArrow extends View {
+
+    public static final int LEFT = 1;
+    public static final int UP = 2;
+    public static final int RIGHT = 3;
+    public static final int DOWN = 4;
 
     private RectF mRectF;
     private boolean circleBg;
@@ -26,59 +31,55 @@ public class IconViewClose extends View {
     private int circlePadding;
     private int strokeWidth;
     private int lineColor;
-    private int lineColorPressed;
-    private int lineColor1;
-    private int lineColor2;
     private int iconPadding;
-    Paint paint1;
-    Paint paint2;
+    private int iconWidth;
+    private int arrowDirection;
+    Paint paint;
     Paint paintC;
     Paint paintCS;
 
     private boolean isPressed;
 
-    public IconViewClose(Context context) {
+    public IconViewArrow(Context context) {
         super(context);
         init(null, 0, 0);
     }
 
-    public IconViewClose(Context context, @Nullable AttributeSet attrs) {
+    public IconViewArrow(Context context, @Nullable AttributeSet attrs) {
         super(context, attrs);
         init(attrs, 0, 0);
     }
 
-    public IconViewClose(Context context, @Nullable AttributeSet attrs, int defStyleAttr) {
+    public IconViewArrow(Context context, @Nullable AttributeSet attrs, int defStyleAttr) {
         super(context, attrs, defStyleAttr);
         init(attrs, defStyleAttr, 0);
     }
 
     @TargetApi(Build.VERSION_CODES.LOLLIPOP)
-    public IconViewClose(Context context, @Nullable AttributeSet attrs, int defStyleAttr, int defStyleRes) {
+    public IconViewArrow(Context context, @Nullable AttributeSet attrs, int defStyleAttr, int defStyleRes) {
         super(context, attrs, defStyleAttr, defStyleRes);
         init(attrs, defStyleAttr, defStyleRes);
     }
 
     protected void init(AttributeSet attrs, int defStyleAttr, int defStyleRes) {
-        final TypedArray a = getContext().obtainStyledAttributes(attrs, R.styleable.IconViewClose, defStyleAttr, defStyleRes);
+        final TypedArray a = getContext().obtainStyledAttributes(attrs, R.styleable.IconViewArrow, defStyleAttr, defStyleRes);
         if (a != null) {
-            lineColor = a.getColor(R.styleable.IconViewClose_lineColor, 0xFF333333);
-            lineColorPressed = a.getColor(R.styleable.IconViewClose_lineColorPressed, lineColor);
-            lineColor1 = a.getColor(R.styleable.IconViewClose_lineColor1, lineColor);
-            lineColor2 = a.getColor(R.styleable.IconViewClose_lineColor2, lineColor);
+            lineColor = a.getColor(R.styleable.IconViewArrow_lineColor, 0xFF333333);
+            arrowDirection = a.getInt(R.styleable.IconViewArrow_arrowDirection, 1);
 
-            strokeWidth = a.getDimensionPixelSize(R.styleable.IconViewClose_iconStrokeWidth, -1);
-            circleStrokeWidth = a.getDimensionPixelSize(R.styleable.IconViewClose_circleStrokeWidth, -1);
-            circlePadding = a.getDimensionPixelSize(R.styleable.IconViewClose_circlePadding, 0);
+            strokeWidth = a.getDimensionPixelSize(R.styleable.IconViewArrow_iconStrokeWidth, -1);
+            circleStrokeWidth = a.getDimensionPixelSize(R.styleable.IconViewArrow_circleStrokeWidth, -1);
+            circlePadding = a.getDimensionPixelSize(R.styleable.IconViewArrow_circlePadding, 0);
 
-            iconPadding = a.getDimensionPixelSize(R.styleable.IconViewClose_iconPadding, 0);
-            circleColor = a.getColor(R.styleable.IconViewClose_circleColor, 0xFF333333);
-            circleStrokeColor = a.getColor(R.styleable.IconViewClose_circleStrokeColor, 0xFF333333);
-            circleBg = a.getBoolean(R.styleable.IconViewClose_circleBg, false);
+            iconPadding = a.getDimensionPixelSize(R.styleable.IconViewArrow_iconPadding, 0);
+            iconWidth = a.getDimensionPixelSize(R.styleable.IconViewArrow_iconWidth, 0);
+            circleColor = a.getColor(R.styleable.IconViewArrow_circleColor, 0xFF333333);
+            circleStrokeColor = a.getColor(R.styleable.IconViewArrow_circleStrokeColor, 0xFF333333);
+            circleBg = a.getBoolean(R.styleable.IconViewArrow_circleBg, false);
             a.recycle();
         }
 
-        initPaint1();
-        initPaint2();
+        initPaint();
         initPaintC();
         initPaintCS();
         mRectF = new RectF();
@@ -103,8 +104,25 @@ public class IconViewClose extends View {
                 canvas.drawOval(mRectF, paintCS);
             }
         }
-        canvas.drawLine(iconPadding, iconPadding, getWidth() - iconPadding, getHeight() - iconPadding, paint1);
-        canvas.drawLine(getWidth() - iconPadding, iconPadding, iconPadding, getHeight() - iconPadding, paint2);
+
+        switch (arrowDirection) {
+            case LEFT:
+                canvas.drawLine(iconPadding, getHeight() / 2, iconPadding + iconWidth, getHeight() / 2 - iconWidth, paint);
+                canvas.drawLine(iconPadding, getHeight() / 2, iconPadding + iconWidth, getHeight() / 2 + iconWidth, paint);
+                break;
+            case UP:
+                canvas.drawLine(getWidth() / 2, iconPadding, getWidth() / 2 - iconWidth, iconPadding + iconWidth, paint);
+                canvas.drawLine(getWidth() / 2, iconPadding, getWidth() / 2 + iconWidth, iconPadding + iconWidth, paint);
+                break;
+            case RIGHT:
+                canvas.drawLine(getWidth() - iconPadding, getHeight() / 2, getWidth() - iconPadding - iconWidth, getHeight() / 2 - iconWidth, paint);
+                canvas.drawLine(getWidth() - iconPadding, getHeight() / 2, getWidth() - iconPadding - iconWidth, getHeight() / 2 + iconWidth, paint);
+                break;
+            case DOWN:
+                canvas.drawLine(getWidth() / 2, getHeight() - iconPadding, getWidth() / 2 - iconWidth, getHeight() - iconPadding - iconWidth, paint);
+                canvas.drawLine(getWidth() / 2, getHeight() - iconPadding, getWidth() / 2 + iconWidth, getHeight() - iconPadding - iconWidth, paint);
+                break;
+        }
     }
 
     @Override
@@ -144,21 +162,12 @@ public class IconViewClose extends View {
         }
     }
 
-    private void initPaint2() {
-        if (paint2 == null) {
-            paint2 = new Paint();
-            paint2.setStrokeWidth(strokeWidth);
-            paint2.setStrokeCap(Paint.Cap.ROUND);
-            paint2.setColor(lineColor2);
-        }
-    }
-
-    private void initPaint1() {
-        if (paint1 == null) {
-            paint1 = new Paint();
-            paint1.setStrokeWidth(strokeWidth);
-            paint1.setStrokeCap(Paint.Cap.ROUND);
-            paint1.setColor(lineColor1);
+    private void initPaint() {
+        if (paint == null) {
+            paint = new Paint();
+            paint.setStrokeWidth(strokeWidth);
+            paint.setStrokeCap(Paint.Cap.ROUND);
+            paint.setColor(lineColor);
         }
     }
 
@@ -194,23 +203,6 @@ public class IconViewClose extends View {
 
     public void setLineColor(int lineColor) {
         this.lineColor = lineColor;
-        this.lineColor1 = lineColor;
-        this.lineColor2 = lineColor;
-        rePaint();
-    }
-
-    public void setLineColorPressed(int lineColorPressed) {
-        this.lineColorPressed = lineColorPressed;
-        rePaint();
-    }
-
-    public void setLineColor1(int lineColor1) {
-        this.lineColor1 = lineColor1;
-        rePaint();
-    }
-
-    public void setLineColor2(int lineColor2) {
-        this.lineColor2 = lineColor2;
         rePaint();
     }
 
@@ -219,15 +211,17 @@ public class IconViewClose extends View {
         rePaint();
     }
 
+    public void setArrowDirection(int direction) {
+        arrowDirection = direction;
+        rePaint();
+    }
+
     public void rePaint() {
         mRectF = null;
-        paint1 = null;
-        paint2 = null;
         paintC = null;
         paintCS = null;
 
-        initPaint1();
-        initPaint2();
+        initPaint();
         initPaintC();
         initPaintCS();
         mRectF = new RectF(circlePadding, circlePadding, getWidth() - circlePadding, getHeight() - circlePadding);
