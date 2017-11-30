@@ -63,19 +63,21 @@ public class IconCloseActivity extends Activity implements View.OnFocusChangeLis
         checkbox = findViewById(R.id.checkbox);
         checkbox.setOnCheckedChangeListener(this);
 
-        setEditTextListener(txt_width);
-        setEditTextListener(txt_height);
-        setEditTextListener(txt_lineColor);
-        setEditTextListener(txt_iconStrokeWidth);
-        setEditTextListener(txt_iconPadding);
-        setEditTextListener(txt_circleColor);
-        setEditTextListener(txt_circlePadding);
-        setEditTextListener(txt_circleStrokeColor);
-        setEditTextListener(txt_circleStrokeWidth);
+        setEditTextListener(txt_width, false);
+        setEditTextListener(txt_height, false);
+        setEditTextListener(txt_lineColor, true);
+        setEditTextListener(txt_iconStrokeWidth, false);
+        setEditTextListener(txt_iconPadding, false);
+        setEditTextListener(txt_circleColor, true);
+        setEditTextListener(txt_circlePadding, false);
+        setEditTextListener(txt_circleStrokeColor, true);
+        setEditTextListener(txt_circleStrokeWidth, false);
     }
 
-    private void setEditTextListener(EditText editText) {
-        editText.setFilters(new InputFilter[]{lengthFilter});
+    private void setEditTextListener(EditText editText, boolean addFilter) {
+        if (addFilter) {
+            editText.setFilters(new InputFilter[]{lengthFilter});
+        }
         editText.setOnFocusChangeListener(this);
     }
 

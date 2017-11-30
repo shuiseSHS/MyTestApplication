@@ -147,6 +147,8 @@ public class IconViewClose extends View {
     private void initPaint2() {
         if (paint2 == null) {
             paint2 = new Paint();
+            paint2.setAntiAlias(true);
+            paint2.setDither(true);
             paint2.setStrokeWidth(strokeWidth);
             paint2.setStrokeCap(Paint.Cap.ROUND);
             paint2.setColor(lineColor2);
@@ -156,6 +158,8 @@ public class IconViewClose extends View {
     private void initPaint1() {
         if (paint1 == null) {
             paint1 = new Paint();
+            paint1.setAntiAlias(true);
+            paint1.setDither(true);
             paint1.setStrokeWidth(strokeWidth);
             paint1.setStrokeCap(Paint.Cap.ROUND);
             paint1.setColor(lineColor1);

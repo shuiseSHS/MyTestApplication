@@ -22,6 +22,7 @@ import android.net.Uri;
 import android.provider.MediaStore;
 import android.support.annotation.Nullable;
 import android.util.DisplayMetrics;
+import android.util.TypedValue;
 import android.view.Window;
 import android.view.inputmethod.InputMethodManager;
 
@@ -161,14 +162,7 @@ public class UIUtils {
      * dip转px值
      */
     public static int dip2px(float dipValue) {
-        float scale;
-        if (sContext != null) {
-            scale = sContext.getResources().getDisplayMetrics().density;
-        } else {
-            scale = Resources.getSystem().getDisplayMetrics().density;
-        }
-
-        return (int) (dipValue * scale + 0.5f);
+        return (int) (TypedValue.applyDimension(TypedValue.COMPLEX_UNIT_DIP, dipValue, Resources.getSystem().getDisplayMetrics()));
     }
 
     /**
