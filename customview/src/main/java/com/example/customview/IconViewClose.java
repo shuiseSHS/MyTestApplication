@@ -1,5 +1,6 @@
 package com.example.customview;
 
+import android.annotation.SuppressLint;
 import android.annotation.TargetApi;
 import android.content.Context;
 import android.content.res.TypedArray;
@@ -10,13 +11,14 @@ import android.os.Build;
 import android.support.annotation.Nullable;
 import android.util.AttributeSet;
 import android.view.MotionEvent;
-import android.view.View;
+import android.widget.ImageView;
 
 /**
  * Created by shisong on 2017/11/15.
  * 自定义关闭图标
  */
-public class IconViewClose extends View {
+@SuppressLint("AppCompatCustomView")
+public class IconViewClose extends ImageView {
 
     private RectF mRectF;
     private boolean circleBg;

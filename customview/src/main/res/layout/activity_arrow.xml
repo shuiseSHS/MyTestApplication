@@ -33,7 +33,7 @@
             app:circleStrokeWidth="1dp"
             app:iconPadding="18dp"
             app:iconStrokeWidth="1dp"
-            app:iconWidth="18dp"
+            app:iconWidth="10dp"
             app:lineColor="#FFFF0000"/>
     </RelativeLayout>
 
@@ -81,6 +81,45 @@
                 android:text="48"/>
         </LinearLayout>
 
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:text="箭头方向(DP): "/>
+
+        <RadioGroup
+            android:id="@+id/radioGroup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <RadioButton
+                android:id="@+id/radio_left"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:text="左"/>
+            <RadioButton
+                android:id="@+id/radio_up"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="上"/>
+            <RadioButton
+                android:id="@+id/radio_right"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="右"/>
+            <RadioButton
+                android:id="@+id/radio_down"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="下"/>
+        </RadioGroup>
     </LinearLayout>
 
     <LinearLayout
@@ -139,7 +178,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="四周留白(DP): "/>
+                android:text="箭头距边界(DP): "/>
 
             <EditText
                 android:id="@+id/txt_iconPadding"
@@ -156,39 +195,27 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal">
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center_vertical"
-            android:text="箭头方向(DP): "/>
 
-        <RadioGroup
-            android:id="@+id/radioGroup"
-            android:layout_width="match_parent"
+        <LinearLayout
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
+
+            android:layout_weight="1"
             android:orientation="horizontal">
-            <RadioButton
-                android:id="@+id/radio_left"
+            <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:checked="true"
-                android:text="左"/>
-            <RadioButton
-                android:id="@+id/radio_up"
-                android:layout_width="wrap_content"
+                android:text="箭头宽度(DP): "/>
+
+            <EditText
+                android:id="@+id/txt_iconWidth"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="上"/>
-            <RadioButton
-                android:id="@+id/radio_right"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="右"/>
-            <RadioButton
-                android:id="@+id/radio_down"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="下"/>
-        </RadioGroup>
+                android:inputType="numberDecimal"
+                android:singleLine="true"
+                android:text="10"/>
+        </LinearLayout>
+
     </LinearLayout>
 
     <LinearLayout

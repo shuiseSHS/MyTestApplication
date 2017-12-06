@@ -1,5 +1,6 @@
 package com.example.customview;
 
+import android.annotation.SuppressLint;
 import android.annotation.TargetApi;
 import android.content.Context;
 import android.content.res.TypedArray;
@@ -10,13 +11,14 @@ import android.os.Build;
 import android.support.annotation.Nullable;
 import android.util.AttributeSet;
 import android.view.MotionEvent;
-import android.view.View;
+import android.widget.ImageView;
 
 /**
  * Created by shisong on 2017/11/15.
  * 自定义箭头图标
  */
-public class IconViewArrow extends View {
+@SuppressLint("AppCompatCustomView")
+public class IconViewArrow extends ImageView {
 
     public static final int LEFT = 1;
     public static final int UP = 2;
@@ -32,6 +34,7 @@ public class IconViewArrow extends View {
     private int strokeWidth;
     private int lineColor;
     private int iconPadding;
+
     private int iconWidth;
     private int arrowDirection;
     Paint paint;
@@ -165,6 +168,8 @@ public class IconViewArrow extends View {
     private void initPaint() {
         if (paint == null) {
             paint = new Paint();
+            paint.setAntiAlias(true);
+            paint.setDither(true);
             paint.setStrokeWidth(strokeWidth);
             paint.setStrokeCap(Paint.Cap.ROUND);
             paint.setColor(lineColor);
@@ -196,6 +201,11 @@ public class IconViewArrow extends View {
         rePaint();
     }
 
+    public void setIconWidth(int iconWidth) {
+        this.iconWidth = iconWidth;
+        rePaint();
+    }
+
     public void setStrokeWidth(int strokeWidth) {
         this.strokeWidth = strokeWidth;
         rePaint();
@@ -220,6 +230,7 @@ public class IconViewArrow extends View {
         mRectF = null;
         paintC = null;
         paintCS = null;
+        paint = null;
 
         initPaint();
         initPaintC();

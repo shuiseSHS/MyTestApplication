@@ -34,6 +34,7 @@ public class IconArrowActivity extends Activity implements View.OnFocusChangeLis
     private EditText txt_width;
     private EditText txt_height;
     private EditText txt_lineColor;
+    private EditText txt_iconWidth;
     private EditText txt_iconStrokeWidth;
     private EditText txt_iconPadding;
     private EditText txt_circleColor;
@@ -41,6 +42,7 @@ public class IconArrowActivity extends Activity implements View.OnFocusChangeLis
     private EditText txt_circleStrokeColor;
     private EditText txt_circleStrokeWidth;
     private RadioGroup radioGroup;
+    private String str_direction;
     private CheckBox checkbox;
 
     private ViewGroup.LayoutParams layoutParams;
@@ -56,6 +58,7 @@ public class IconArrowActivity extends Activity implements View.OnFocusChangeLis
         txt_width = findViewById(R.id.txt_width);
         txt_height = findViewById(R.id.txt_height);
         txt_lineColor = findViewById(R.id.txt_lineColor);
+        txt_iconWidth = findViewById(R.id.txt_iconWidth);
         txt_iconStrokeWidth = findViewById(R.id.txt_iconStrokeWidth);
         txt_iconPadding = findViewById(R.id.txt_iconPadding);
         txt_circleColor = findViewById(R.id.txt_circleColor);
@@ -69,15 +72,19 @@ public class IconArrowActivity extends Activity implements View.OnFocusChangeLis
                 switch (checkedId) {
                     case R.id.radio_left:
                         icon.setArrowDirection(IconViewArrow.LEFT);
+                        str_direction = "LEFT";
                         break;
                     case R.id.radio_up:
                         icon.setArrowDirection(IconViewArrow.UP);
+                        str_direction = "UP";
                         break;
                     case R.id.radio_right:
                         icon.setArrowDirection(IconViewArrow.RIGHT);
+                        str_direction = "RIGHT";
                         break;
                     case R.id.radio_down:
                         icon.setArrowDirection(IconViewArrow.DOWN);
+                        str_direction = "DOWN";
                         break;
                 }
             }
@@ -91,6 +98,7 @@ public class IconArrowActivity extends Activity implements View.OnFocusChangeLis
         setEditTextListener(txt_lineColor);
         setEditTextListener(txt_iconStrokeWidth);
         setEditTextListener(txt_iconPadding);
+        setEditTextListener(txt_iconWidth);
         setEditTextListener(txt_circleColor);
         setEditTextListener(txt_circlePadding);
         setEditTextListener(txt_circleStrokeColor);
@@ -126,6 +134,9 @@ public class IconArrowActivity extends Activity implements View.OnFocusChangeLis
                     break;
                 case R.id.txt_lineColor:
                     icon.setLineColor(toColor(value));
+                    break;
+                case R.id.txt_iconWidth:
+                    icon.setIconWidth(toPx(value));
                     break;
                 case R.id.txt_circleColor:
                     icon.setCircleColor(toColor(value));
@@ -175,16 +186,18 @@ public class IconArrowActivity extends Activity implements View.OnFocusChangeLis
 
     public void exportXml(View view) {
         StringBuilder sb = new StringBuilder();
-        sb.append("<org.qiyi.basecore.widget.IconViewClose").append("\n");
+        sb.append("<org.qiyi.basecore.widget.IconViewArrow").append("\n");
         sb.append("android:layout_width=\"").append(txt_width.getText().toString()).append("dp\"").append("\n");
         sb.append("android:layout_height=\"").append(txt_height.getText().toString()).append("dp\"").append("\n");
-        sb.append("app:circleBg=\"").append(checkbox.isChecked()).append("\"").append("\n");
-        sb.append("app:iconPadding=\"").append(txt_iconPadding.getText().toString()).append("dp\"").append("\n");
-        sb.append("app:circlePadding=\"").append(txt_circlePadding.getText().toString()).append("dp\"").append("\n");
-        sb.append("app:iconStrokeWidth=\"").append(txt_iconStrokeWidth.getText().toString()).append("dp\"").append("\n");
-        sb.append("app:circleStrokeWidth=\"").append(txt_circleStrokeWidth.getText().toString()).append("dp\"").append("\n");
+        sb.append("app:arrowDirection=\"").append(str_direction).append("\"").append("\n");
         sb.append("app:lineColor=\"#").append(txt_lineColor.getText().toString()).append("\"").append("\n");
+        sb.append("app:iconPadding=\"").append(txt_iconPadding.getText().toString()).append("dp\"").append("\n");
+        sb.append("app:iconWidth=\"").append(txt_iconWidth.getText().toString()).append("dp\"").append("\n");
+        sb.append("app:iconStrokeWidth=\"").append(txt_iconStrokeWidth.getText().toString()).append("dp\"").append("\n");
+        sb.append("app:circleBg=\"").append(checkbox.isChecked()).append("\"").append("\n");
+        sb.append("app:circlePadding=\"").append(txt_circlePadding.getText().toString()).append("dp\"").append("\n");
         sb.append("app:circleColor=\"#").append(txt_circleColor.getText().toString()).append("\"").append("\n");
+        sb.append("app:circleStrokeWidth=\"").append(txt_circleStrokeWidth.getText().toString()).append("dp\"").append("\n");
         sb.append("app:circleStrokeColor=\"#").append(txt_circleStrokeColor.getText().toString()).append("\"").append("\n");
         sb.append(" />");
         ClipboardManager clipboardManager = (ClipboardManager) getSystemService(Context.CLIPBOARD_SERVICE);
