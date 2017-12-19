@@ -28,16 +28,14 @@ import okhttp3.OkHttpClient;
 import okhttp3.Request;
 import okhttp3.Response;
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity2 extends AppCompatActivity {
     private static final String SP_ROOT = "SP_ROOT";
     private static final String SP_PATH = "SP_PATH";
     private static final String SP_KEYS = "SP_KEYS";
 
     private static String PATH = "data,info";
-    private static String KEYS = "name:user_nicename,url:pull,type:type,value:type_val";
-//    private static String ROOT = "http://xiansamu.com/api/public/?service=Home.getHot&p=1";
-    private static String ROOT = "http://xiansamu.com/api/public/?service=Home.getNew&lng=&lat=&p=1";
-
+    private static String KEYS = "name:user_nicename,url:pull";
+    private static String ROOT = "http://jk.cai-kongjian.com/api/public/?service=Home.getNew";
     private ListView listView;
     private EditText editText;
     private EditText txtPath;
@@ -71,7 +69,7 @@ public class MainActivity extends AppCompatActivity {
                     intent.setDataAndType(Uri.parse(view.getTag().toString()), "video/*");
                     startActivity(intent);
                 } catch (Exception e) {
-                    Toast.makeText(MainActivity.this, "请安装VLC播放器", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(MainActivity2.this, "请安装VLC播放器", Toast.LENGTH_SHORT).show();
                 }
             }
         });
@@ -99,8 +97,8 @@ public class MainActivity extends AppCompatActivity {
                     @Override
                     public void run() {
                         try {
-                            SharedPreferenceHelper.setParam(MainActivity.this, SP_PATH, txtPath.getText().toString());
-                            SharedPreferenceHelper.setParam(MainActivity.this, SP_KEYS, txtKeys.getText().toString());
+                            SharedPreferenceHelper.setParam(MainActivity2.this, SP_PATH, txtPath.getText().toString());
+                            SharedPreferenceHelper.setParam(MainActivity2.this, SP_KEYS, txtKeys.getText().toString());
 
                             String[] paths = txtPath.getText().toString().split(",");
                             String[] keys = txtKeys.getText().toString().split(",");
@@ -124,20 +122,16 @@ public class MainActivity extends AppCompatActivity {
                                 DataItem dataItem = new DataItem();
 
                                 for (int index = 0; index < keys.length; index++) {
-                                    try {
-                                        String action = keys[index].trim();
-                                        String name = action.substring(0, action.indexOf(":"));
-                                        String key = action.substring(action.indexOf(":") + 1);
+                                    String action = keys[index].trim();
+                                    String name = action.substring(0, action.indexOf(":"));
+                                    String key = action.substring(action.indexOf(":") + 1);
 
-                                        Field field = DataItem.class.getField(name.trim());
-                                        field.set(dataItem, info.getString(key.trim()));
-                                    } catch (Exception ignored) {}
+                                    Field field = DataItem.class.getField(name.trim());
+                                    field.set(dataItem, info.getString(key.trim()));
                                 }
-                                if ("3".equals(dataItem.type)) {
-                                    dataItems.add(dataItem);
-                                }
+                                dataItems.add(dataItem);
                             }
-                            listView.setAdapter(new MyAdapter(MainActivity.this, dataItems));
+                            listView.setAdapter(new MyAdapter(MainActivity2.this, dataItems));
                             textView.setVisibility(View.GONE);
                         } catch (Exception e) {
                             e.printStackTrace();

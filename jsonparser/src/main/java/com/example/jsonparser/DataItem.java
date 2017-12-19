@@ -6,4 +6,6 @@ package com.example.jsonparser;
 public class DataItem {
     public String name;
     public String url;
+    public String type;
+    public String value;
 }

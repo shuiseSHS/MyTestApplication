@@ -37,9 +37,9 @@ public class IconViewArrow extends ImageView {
 
     private int iconWidth;
     private int arrowDirection;
-    Paint paint;
-    Paint paintC;
-    Paint paintCS;
+    private Paint paint;
+    private Paint paintC;
+    private Paint paintCS;
 
     private boolean isPressed;
 
