@@ -52,7 +52,8 @@ public class ClearUnUsedResource {
     };
 
     private final static String[] TO_CLEAR_PROJECTS = {
-            "F:\\qiyi_git\\qiyivideo\\app\\QYVideoClient",
+//            "F:\\qiyi_git\\qiyivideo\\app\\QYVideoClient",
+            "F:\\qiyi_git\\qiyivideo\\biz\\QYPage",
 //		"CardView",
 //		"VideoPlayer",
 //		"QYPaySDK",
@@ -71,9 +72,6 @@ public class ClearUnUsedResource {
     };
 
     private static List<String> TO_CLEAR = new ArrayList<>();
-
-    private final static String[] XML_DIRS = {"/res/layout", "/res/menu", "/res/xml", "/res/anim", "/res/drawable"};
-    private final static String[] IMG_DIRS = {"/res/drawable", "/res/drawable-hdpi", "/res/drawable-xhdpi", "/res/drawable-xxhdpi", "/res/drawable-xxxhdpi"};
 
     // 保存所有代码，以文件名做key
     private final static HashMap<String, String> codeMap = new HashMap<>();
@@ -103,50 +101,11 @@ public class ClearUnUsedResource {
                 if (DEL_JAVA) {
                     for (String p : TO_CLEAR_PROJECTS) {
                         File f = new File(p + "/src");
-                        delUnusedJava(f);
+                        delUnusedFile(f);
+                        f = new File(p + "/res");
+                        delUnusedFile(f);
                     }
                 }
-
-                // 扫描所有XML
-                for (String p : TO_CLEAR_PROJECTS) {
-                    for (String dir : XML_DIRS) {
-                        File f = new File(p + dir);
-                        delUnusedXml(f);
-                    }
-                }
-
-                // Image
-                for (String p : TO_CLEAR_PROJECTS) {
-                    for (String dir : IMG_DIRS) {
-                        File f = new File(p + dir);
-                        delUnusedImage(f);
-                    }
-                }
-            } else {
-                // 代码
-                if (DEL_JAVA) {
-                    for (String p : TO_CLEAR_PROJECTS) {
-                        File f = new File(p + "/src");
-                        delUnusedJava(f);
-                    }
-                }
-
-                // 扫描所有XML
-                for (String p : TO_CLEAR_PROJECTS) {
-                    for (String dir : XML_DIRS) {
-                        File f = new File(p + dir);
-                        delUnusedXml(f);
-                    }
-                }
-
-                // Image
-                for (String p : TO_CLEAR_PROJECTS) {
-                    for (String dir : IMG_DIRS) {
-                        File f = new File(p + dir);
-                        delUnusedImage(f);
-                    }
-                }
-
             }
 
             System.out.println("可删除文件数：" + delFiles);
@@ -262,7 +221,7 @@ public class ClearUnUsedResource {
     }
 
     // 筛选出没有引用的java文件并且删除
-    private static void delUnusedJava(File dir) {
+    private static void delUnusedFile(File dir) {
         if (codeMap.size() == 0) {
             System.err.println("textMap没有初始化");
         }
@@ -272,7 +231,7 @@ public class ClearUnUsedResource {
 
         for (File f : dir.listFiles()) {
             if (f.isDirectory()) {
-                delUnusedJava(f);
+                delUnusedFile(f);
             } else {
                 String fileName = f.getAbsolutePath();
                 if (fileName.endsWith(".java")) {
@@ -280,6 +239,26 @@ public class ClearUnUsedResource {
                         logD(f);
                         codeMap.remove(f.getAbsolutePath());
                         delXMLBytes += f.length();
+                        delFiles++;
+                        if (REAL_DEL) {
+                            f.delete();
+                        }
+                    }
+                } else if (fileName.endsWith(".xml")) {
+                    if (!containsString(f)) {
+                        logD(f);
+                        codeMap.remove(f.getAbsolutePath());
+                        delXMLBytes += f.length();
+                        delFiles++;
+                        if (REAL_DEL) {
+                            f.delete();
+                        }
+                    }
+                } else if (fileName.endsWith(".9.png") || fileName.endsWith(".png") || fileName.endsWith(".jpg")) {
+                    if (!containsString(f)) {
+                        logD(f);
+                        codeMap.remove(f.getAbsolutePath());
+                        delIMGBytes += f.length();
                         delFiles++;
                         if (REAL_DEL) {
                             f.delete();

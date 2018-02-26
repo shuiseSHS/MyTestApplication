@@ -72,6 +72,8 @@
         </activity>
         <activity android:name="com.example.dexloader.Dexloader2Activity">
         </activity>
+        <activity android:name="com.example.waveview.WaveViewActivity">
+        </activity>
     </application>
 
 </manifest>

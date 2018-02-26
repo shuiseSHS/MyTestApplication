@@ -13,11 +13,6 @@ import android.widget.MediaController;
 import android.widget.Toast;
 import android.widget.VideoView;
 
-import okhttp3.Call;
-import okhttp3.OkHttpClient;
-import okhttp3.Request;
-import okhttp3.Response;
-
 public class PlayerActivity extends Activity implements MediaPlayer.OnPreparedListener, MediaPlayer.OnErrorListener {
 
     private static final String TAG = "VideoPlayActivity";
@@ -61,8 +56,9 @@ public class PlayerActivity extends Activity implements MediaPlayer.OnPreparedLi
 
         initDialog();
 
-        String url = getIntent().getStringExtra("url");
-        loadData(url);
+        videoUrl = getIntent().getStringExtra("url");
+        videoView.setVideoURI(Uri.parse(videoUrl));
+        videoView.start();
     }
 
     @Override
@@ -103,34 +99,6 @@ public class PlayerActivity extends Activity implements MediaPlayer.OnPreparedLi
         progressDialog.setMessage(DIALOG_TITILE);
         progressDialog.setCancelable(false);
         progressDialog.show();
-    }
-
-    private void loadData(final String url) {
-        new Thread() {
-            public void run() {
-                try {
-                    OkHttpClient mOkHttpClient = new OkHttpClient();
-                    final Request request = new Request.Builder().url(url)
-                            .header("User-Agent", "OkHttp Headers.java").build();
-                    Call call = mOkHttpClient.newCall(request);
-                    Response response = null;
-                    response = call.execute();
-
-                    String result = response.body().string();
-                    videoUrl = result.substring(result.indexOf("video_url") + 12, result.indexOf(".mp4", result.indexOf("video_url")) + 4);
-                    runOnUiThread(new Runnable() {
-                        @Override
-                        public void run() {
-                            videoView.setVideoURI(Uri.parse(videoUrl));
-                            videoView.start();
-                        }
-                    });
-                } catch (Exception e) {
-                    e.printStackTrace();
-                    Toast.makeText(PlayerActivity.this, e.getLocalizedMessage(), Toast.LENGTH_SHORT).show();
-                }
-            }
-        }.start();
     }
 
 }

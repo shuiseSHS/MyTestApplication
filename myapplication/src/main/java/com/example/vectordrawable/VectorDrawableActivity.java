@@ -57,7 +57,7 @@ public class VectorDrawableActivity extends Activity implements View.OnClickList
 
         img_lottie = (ImageView) findViewById(R.id.img_lottie);
         littieDrawable = new LottieDrawable();
-        LottieComposition.Factory.fromAssetFileName(this, "disagree.json", new OnCompositionLoadedListener() {
+        LottieComposition.Factory.fromAssetFileName(this, "navi_switch.json", new OnCompositionLoadedListener() {
             @Override
             public void onCompositionLoaded(@Nullable LottieComposition composition) {
                 littieDrawable.setComposition(composition);
@@ -68,27 +68,37 @@ public class VectorDrawableActivity extends Activity implements View.OnClickList
             @Override
             public void onClick(View v) {
                 littieDrawable.setProgress(0);
+                littieDrawable.loop(true);
                 littieDrawable.playAnimation();
             }
         });
 
-        lottieAnimationView = (LottieAnimationView) findViewById(R.id.img_lottie1);
-        lottieAnimationView.setAnimation("data.json");
+        lottieAnimationView = findViewById(R.id.img_lottie1);
+        lottieAnimationView.setAnimation("search_speech_ico.json");
+        lottieAnimationView.setImageAssetsFolder("images/");
+        lottieAnimationView.loop(true);
         lottieAnimationView.playAnimation();
         lottieAnimationView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                lottieAnimationView.setProgress(0);
-                lottieAnimationView.playAnimation();
+//                lottieAnimationView.getLayoutParams().width = UIUtils.dip2px(35);
+//                lottieAnimationView.getLayoutParams().height = UIUtils.dip2px(35);
+//                lottieAnimationView.requestLayout();
+//                lottieAnimationView.setAnimation("voice_search_loading_3.json");
+//                lottieAnimationView.setProgress(0);
+//                lottieAnimationView.playAnimation();
             }
         });
 
         final LottieAnimationView lottieAnimationView2 = (LottieAnimationView) findViewById(R.id.img_lottie2);
-        lottieAnimationView2.setAnimation("pp.json");
+        lottieAnimationView2.setAnimation("voice_search_loading.json");
+        lottieAnimationView2.setScale(0.5f);
+        lottieAnimationView2.loop(true);
         lottieAnimationView2.playAnimation();
         lottieAnimationView2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                lottieAnimationView2.loop(true);
                 lottieAnimationView2.setProgress(0);
                 lottieAnimationView2.playAnimation();
             }

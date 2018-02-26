@@ -8,15 +8,7 @@ import android.view.View;
 import android.widget.ProgressBar;
 
 import com.example.itemlist.adapter.ContentParser;
-import com.example.itemlist.adapter.RecentAddParser;
-
-import org.jsoup.Jsoup;
-import org.jsoup.nodes.Document;
-import org.jsoup.nodes.Element;
-import org.jsoup.select.Elements;
-
-import java.util.ArrayList;
-import java.util.List;
+import com.example.itemlist.adapter.RecentParser;
 
 import okhttp3.Call;
 import okhttp3.OkHttpClient;
@@ -40,7 +32,7 @@ public class MainActivity extends Activity {
         adapter = new RewardFeeAdapter(this);
         recyclerView.setAdapter(adapter);
 
-        contentParser = new RecentAddParser();
+        contentParser = new RecentParser();
         contentParser.setKeyword("人民的名义");
         loadData(currentPage);
     }
@@ -54,21 +46,11 @@ public class MainActivity extends Activity {
                 try {
                     OkHttpClient mOkHttpClient = new OkHttpClient();
                     final Request request = new Request.Builder().url(contentParser.getPageUrl(page))
-                            .header("User-Agent", "OkHttp Headers.java")
-                            .build();
+                            .header("User-Agent", "OkHttp Headers.java").build();
                     Call call = mOkHttpClient.newCall(request);
                     Response response = call.execute();
                     String result = response.body().string();
-                    Document doc = Jsoup.parse(result);
-                    Elements videos = doc.getElementsByClass("result c-container ");
-                    List<DataItem> datas = new ArrayList<>();
-                    for (Element video : videos) {
-                        DataItem data = new DataItem();
-                        data.title = video.getElementsByTag("a").text();
-                        data.url = video.getElementsByTag("a").attr("href");
-                        datas.add(data);
-                    }
-                    adapter.setData(datas);
+                    adapter.setData(contentParser.getVideoList(result));
                     runOnUiThread(new Runnable() {
                         @Override
                         public void run() {

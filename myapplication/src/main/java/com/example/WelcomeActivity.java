@@ -12,10 +12,11 @@ import android.view.View;
 import android.view.Window;
 
 import com.example.dexloader.DexloaderActivity;
-import com.example.myapplication.R;
 import com.example.flowlayout.FlowLayoutActivity;
+import com.example.myapplication.R;
 import com.example.transition.TransitionActivity;
 import com.example.vectordrawable.VectorDrawableActivity;
+import com.example.waveview.WaveViewActivity;
 
 /**
  * Created by shisong on 2017/4/1.
@@ -32,7 +33,7 @@ public class WelcomeActivity extends Activity {
         }
 
         setContentView(R.layout.activity_welcome);
-//        toCamera(null);
+        toActivityWaveView(null);
 
         ObjectAnimator showAnimator = new ObjectAnimator();
         showAnimator.setIntValues(0, 100);
@@ -91,5 +92,9 @@ public class WelcomeActivity extends Activity {
 
     public void toActivityDexLoader(View view) {
         startActivity(new Intent(this, DexloaderActivity.class));
+    }
+
+    public void toActivityWaveView(View view) {
+        startActivity(new Intent(this, WaveViewActivity.class));
     }
 }
