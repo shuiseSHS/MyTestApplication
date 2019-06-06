@@ -3,6 +3,10 @@ package com.example.scantool;
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.InputStreamReader;
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
 
 /**
  * Created by shisong on 2019/6/6
@@ -16,6 +20,28 @@ public class GitCmd {
     public static void main(String[] a) {
         String name = getCmdResult("git log --pretty=format:%ae -1 F:\\qiyi_git\\qiyivideo\\biz\\Page\\QYPage\\src\\main\\res\\anim\\main_iqiyi_logo_animation.xml");
         System.out.println("----" + name);
+    }
+
+    public static void outputWithGitInfo(List<File> delFileList) {
+        Map<String, List<File>> userFiles = new HashMap<>();
+        for (File file : delFileList) {
+            String user = getGitUser(file.getAbsolutePath());
+            if (userFiles.containsKey(user)) {
+                List<File> files = userFiles.get(user);
+                files.add(file);
+            } else {
+                List<File> files = new ArrayList<>();
+                files.add(file);
+                userFiles.put(user, files);
+            }
+        }
+
+        for (String user : userFiles.keySet()) {
+            List<File> files = userFiles.get(user);
+            for (File file : files) {
+                System.out.println(user + "-----" + file.getAbsolutePath().substring(12));
+            }
+        }
     }
 
     public static String getGitUser(String filePath) {
