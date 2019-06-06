@@ -10,6 +10,7 @@ import java.util.ArrayList;
 import java.util.Enumeration;
 import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 import java.util.jar.JarEntry;
 import java.util.jar.JarFile;
 
@@ -53,7 +54,8 @@ public class ClearUnUsedResource {
 
     private final static String[] TO_CLEAR_PROJECTS = {
 //            "F:\\qiyi_git\\qiyivideo\\app\\QYVideoClient",
-            "F:\\qiyi_git\\qiyivideo\\biz\\QYPage",
+            "F:\\qiyi_git\\qiyivideo\\biz\\Page\\QYPage",
+//            "F:\\qiyi_git\\qiyivideo\\biz\\QYSearch",
 //		"CardView",
 //		"VideoPlayer",
 //		"QYPaySDK",
@@ -76,7 +78,8 @@ public class ClearUnUsedResource {
     // 保存所有代码，以文件名做key
     private final static HashMap<String, String> codeMap = new HashMap<>();
 
-    private static int delFiles = 0;
+    private static int delFileNum = 0;
+    private static List<File> delFileList = new ArrayList<>();
     private static long totalBytes = 0;
     private static long delXMLBytes = 0;
     private static long delIMGBytes = 0;
@@ -84,13 +87,14 @@ public class ClearUnUsedResource {
     public static void main(String[] args) {
 
         // 加载所有代码到内存中
-        loadCodeinModules();
+        loadCodeInModules();
 
         int lastDelFiles;
         while (true) {
-            lastDelFiles = delFiles;
+            lastDelFiles = delFileNum;
+            delFileList.clear();
             if (!REAL_DEL) {
-                delFiles = 0;
+                delFileNum = 0;
                 totalBytes = 0;
                 delXMLBytes = 0;
                 delIMGBytes = 0;
@@ -108,15 +112,35 @@ public class ClearUnUsedResource {
                 }
             }
 
-            System.out.println("可删除文件数：" + delFiles);
-            if (delFiles == lastDelFiles) {
+            System.out.println("可删除文件数：" + delFileNum);
+            if (delFileNum == lastDelFiles) {
                 break;
             }
         }
 
-        System.out.println("最终删除文件数：" + delFiles);
+        System.out.println("最终删除文件数：" + delFileNum);
         System.out.println("删除的XML字节数：" + delXMLBytes);
         System.out.println("删除的IMG字节数：" + delIMGBytes);
+
+        Map<String, List<File>> userFiles = new HashMap<>();
+        for (File file : delFileList) {
+            String user = GitCmd.getGitUser(file.getAbsolutePath());
+            if (userFiles.containsKey(user)) {
+                List<File> files = userFiles.get(user);
+                files.add(file);
+            } else {
+                List<File> files = new ArrayList<>();
+                files.add(file);
+                userFiles.put(user, files);
+            }
+        }
+
+        for (String user : userFiles.keySet()) {
+            List<File> files = userFiles.get(user);
+            for (File file : files) {
+                System.out.println(user + "-----" + file.getAbsolutePath().substring(12));
+            }
+        }
     }
 
     // 加载所有代码（包括xml和java）
@@ -157,7 +181,7 @@ public class ClearUnUsedResource {
     }
 
     // 加载所有代码（包括xml和java）
-    private static void loadCodeinModules() {
+    private static void loadCodeInModules() {
         codeMap.clear();
         File root = new File(ROOT_DIR);
         for (File project : root.listFiles()) {
@@ -206,10 +230,21 @@ public class ClearUnUsedResource {
         System.out.println(moduleDir.getAbsolutePath());
 
         TO_CLEAR.add(moduleDir.getName());
-        File dir = new File(moduleDir, "/src");
-        loadDirCode(dir);
 
-        dir = new File(moduleDir, "/res");
+        File dir = new File(moduleDir, "/res");
+        if (dir.exists()) {
+            loadDirCode(dir);
+
+            dir = new File(moduleDir, "/src");
+            loadDirCode(dir);
+        } else {
+            dir = new File(moduleDir, "/src/main/res");
+            loadDirCode(dir);
+            dir = new File(moduleDir, "/src/main/java");
+            loadDirCode(dir);
+        }
+
+        dir = new File(moduleDir, "build/generated/source/apt/debug");
         loadDirCode(dir);
 
         if (NEED_READ_JAR) {
@@ -225,7 +260,8 @@ public class ClearUnUsedResource {
         if (codeMap.size() == 0) {
             System.err.println("textMap没有初始化");
         }
-        if (dir == null || !dir.exists() || !dir.isDirectory()) {
+        if (dir == null || !dir.exists() || !dir.isDirectory() || "assets".equals(dir.getName())
+                || dir.getName().startsWith("values")) {
             return;
         }
 
@@ -236,41 +272,34 @@ public class ClearUnUsedResource {
                 String fileName = f.getAbsolutePath();
                 if (fileName.endsWith(".java")) {
                     if (!containsStringByJava(f)) {
-                        logD(f);
-                        codeMap.remove(f.getAbsolutePath());
                         delXMLBytes += f.length();
-                        delFiles++;
-                        if (REAL_DEL) {
-                            f.delete();
-                        }
+                        doDelete(f);
                     }
-                } else if (fileName.endsWith(".xml")) {
+                } else if (fileName.endsWith(".xml") && !fileName.endsWith("AndroidManifest.xml")) {
                     if (!containsString(f)) {
-                        logD(f);
-                        codeMap.remove(f.getAbsolutePath());
                         delXMLBytes += f.length();
-                        delFiles++;
-                        if (REAL_DEL) {
-                            f.delete();
-                        }
+                        doDelete(f);
                     }
                 } else if (fileName.endsWith(".9.png") || fileName.endsWith(".png") || fileName.endsWith(".jpg")) {
                     if (!containsString(f)) {
-                        logD(f);
-                        codeMap.remove(f.getAbsolutePath());
+                        doDelete(f);
                         delIMGBytes += f.length();
-                        delFiles++;
-                        if (REAL_DEL) {
-                            f.delete();
-                        }
                     }
                 }
             }
         }
     }
 
-    private static void logD(File f) {
-        System.out.println("D: " + f.getAbsolutePath().substring(12));
+    private static void doDelete(File f) {
+//        System.out.println(f.getAbsolutePath().substring(12));
+        codeMap.remove(f.getAbsolutePath());
+        delFileNum++;
+        delFileList.add(f);
+
+        if (REAL_DEL) {
+            f.delete();
+        }
+
     }
 
     // 筛选出没有引用的xml文件并且删除
@@ -286,10 +315,10 @@ public class ClearUnUsedResource {
             String fileName = f.getAbsolutePath();
             if (fileName.endsWith(".xml")) {
                 if (!containsString(f)) {
-                    logD(f);
+                    doDelete(f);
                     codeMap.remove(f.getAbsolutePath());
                     delXMLBytes += f.length();
-                    delFiles++;
+                    delFileNum++;
                     if (REAL_DEL) {
                         f.delete();
                     }
@@ -311,10 +340,10 @@ public class ClearUnUsedResource {
             String fileName = f.getName();
             if (fileName.endsWith(".9.png") || fileName.endsWith(".png") || fileName.endsWith(".jpg")) {
                 if (!containsString(f)) {
-                    logD(f);
+                    doDelete(f);
                     codeMap.remove(f.getAbsolutePath());
                     delIMGBytes += f.length();
-                    delFiles++;
+                    delFileNum++;
                     if (REAL_DEL) {
                         f.delete();
                     }
@@ -364,9 +393,9 @@ public class ClearUnUsedResource {
 
         int c = 0;
         for (String filePath : codeMap.keySet()) {
-            if (!filePath.endsWith(".java") && !filePath.endsWith("AndroidManifest.xml")) {
-                continue;
-            }
+//            if (!filePath.endsWith(".java") && !filePath.endsWith("AndroidManifest.xml")) {
+//                continue;
+//            }
             if (filePath.equals(currentFilePath)) {
                 continue;
             }

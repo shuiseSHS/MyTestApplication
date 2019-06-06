@@ -17,7 +17,7 @@ public class ScanRepeatRes {
     private static long TOTAL_NUM = 0;
     private static long IMAGE_NUM = 0;
 
-    public final static String ROOT_DIR = "C:\\Users\\shisong\\Desktop\\冗余资源删除\\res";
+    private final static String ROOT_DIR = "C:\\Users\\shisong\\Desktop\\res";
 
     public static void main(String[] args) throws IOException {
         loadCode();
@@ -41,7 +41,10 @@ public class ScanRepeatRes {
                 long size = (f.length() * (ls.size() - 1));
                 TOTAL_SIZE += size;
                 TOTAL_NUM += ls.size() - 1;
-                System.out.println(md5 + " 相似数量" + ls.size() + ", 冗余空间：" + size);
+                System.out.println("相同图片数量" + ls.size() + ", 冗余空间：" + size);
+                for (String sss : ls) {
+                    System.out.println("----------: " + sss);
+                }
             }
         }
         System.out.println("共有图片：" + IMAGE_NUM);
@@ -71,7 +74,7 @@ public class ScanRepeatRes {
                     }
                     fs.add(f.getAbsolutePath());
                     IMAGE_NUM ++;
-                    System.out.println(md5 + "---" + f.getAbsolutePath());
+//                    System.out.println(md5 + "---" + f.getAbsolutePath());
                 }
             }
         }
