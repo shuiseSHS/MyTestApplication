@@ -113,7 +113,6 @@ public class ClearUnUsedResource extends ScanConstant {
         }
     }
 
-
     private static void loadModule(File moduleDir) {
         System.out.println(moduleDir.getAbsolutePath());
 

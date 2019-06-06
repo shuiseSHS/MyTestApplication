@@ -57,7 +57,6 @@ public class XXHDPI {
         }
     }
 
-
     private static void compareDirRes(File dir) throws IOException {
         if (dir == null || !dir.exists() || !dir.isDirectory() || dir.listFiles() == null) {
             return;
