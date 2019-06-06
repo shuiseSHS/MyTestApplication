@@ -24,6 +24,7 @@ public class GitCmd {
 
     public static void outputWithGitInfo(List<File> delFileList) {
         Map<String, List<File>> userFiles = new HashMap<>();
+        int column = 0;
         for (File file : delFileList) {
             String user = getGitUser(file.getAbsolutePath());
             if (userFiles.containsKey(user)) {
@@ -34,8 +35,14 @@ public class GitCmd {
                 files.add(file);
                 userFiles.put(user, files);
             }
+            if (++column == 100) {
+                System.out.println("=");
+            } else {
+                System.out.print("=");
+            }
         }
 
+        System.out.println("=");
         for (String user : userFiles.keySet()) {
             List<File> files = userFiles.get(user);
             for (File file : files) {
@@ -78,7 +85,6 @@ public class GitCmd {
             while ((line = reader.readLine()) != null) {
                 break;
             }
-//            int exitVal = proc.waitFor();
             reader.close();
         } catch (Exception e) {
             e.printStackTrace();

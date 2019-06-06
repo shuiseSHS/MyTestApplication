@@ -2,49 +2,18 @@ package com.example.scantool;
 
 import com.example.scantool.codeloader.CommonCodeLoader;
 import com.example.scantool.codeloader.JarCodeLoader;
+import com.example.scantool.constant.ScanConstant;
 
 import java.io.File;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 
-public class ClearUnUsedResource {
-
-    private static boolean REAL_DEL = false; // 是否真的删除文件
-
-    private final static boolean DEL_JAVA = true; // 是否删除java文件
+public class ClearUnUsedResource extends ScanConstant {
 
     private final static boolean NEED_READ_JAR = false; // 是否需要扫描jar
 
     private final static boolean FULL_LOG = false;// 是否显示具体Log
-
-    private final static boolean DEL_ALL = true;
-
-    // 存在拼接查找资源的逻辑
-    private final static String[] HOLD = new String[]{
-            "cate_", "music_top_fans_", "player_rank_starrank_", "plugin_", "no_vip_rank", "vip_rank_", "vip_card_level_",
-            "qiyi_search_hotwor_rank_icon_", "service_", "player_pp_recommend_item_circle_feed", "player_portrait_rank_starrank_",
-            "vip_level_", "vip_upgrade_gift_dialog_logo_", "vip_upgrade_gift_dialog_title_", "gift_num_", "ico_hot"
-    };
-
-    private final static String ROOT_DIR = "F:/qiyi_git/qiyivideo/";
-
-    private final static String[] EXCLUDE_DIR = {
-            ".git",
-            ".gitignore",
-            ".gradle",
-            ".idea",
-            ".navigation",
-            "BaiduWalletSDKLib",
-            "qywallet",
-            "build",
-            "gradle",
-            "Networklib",
-            "tools",
-            "WebView",
-            "android_support",
-            "appstore"
-    };
 
     private final static String[] TO_CLEAR_PROJECTS = {
             "F:\\qiyi_git\\qiyivideo\\app\\QYVideoClient",
@@ -59,7 +28,6 @@ public class ClearUnUsedResource {
     // 保存所有代码，以文件名做key
     private final static HashMap<String, String> codeMap = new HashMap<>();
 
-    private static int delFileNum = 0;
     private static List<File> delFileList = new ArrayList<>();
     private static long totalBytes = 0;
     private static long delXMLBytes = 0;
@@ -70,35 +38,30 @@ public class ClearUnUsedResource {
         loadCodeInModules();
 
         int lastDelFiles;
+        int count = 1;
         while (true) {
-            lastDelFiles = delFileNum;
-            delFileList.clear();
+            lastDelFiles = delFileList.size();
             if (!REAL_DEL) {
-                delFileNum = 0;
-                totalBytes = 0;
+                delFileList.clear();
                 delXMLBytes = 0;
                 delIMGBytes = 0;
             }
 
-            if (DEL_ALL) {
-                // 代码
-                if (DEL_JAVA) {
-                    for (String p : TO_CLEAR_PROJECTS) {
-                        File f = new File(p + "/src");
-                        delUnusedFile(f);
-                        f = new File(p + "/res");
-                        delUnusedFile(f);
-                    }
-                }
+            for (String p : TO_CLEAR_PROJECTS) {
+                File f = new File(p + "/src");
+                delUnusedFile(f);
+                f = new File(p + "/res");
+                delUnusedFile(f);
             }
 
-            System.out.println("可删除文件数：" + delFileNum);
-            if (delFileNum == 0 || delFileNum == lastDelFiles) {
+            System.out.println(count++ +"轮删除文件数：" + delFileList.size());
+            if (delFileList.size() == 0 || delFileList.size() == lastDelFiles) {
                 break;
             }
         }
 
-        System.out.println("最终删除文件数：" + delFileNum);
+        System.out.println("=============================");
+        System.out.println("最终删除文件数：" + delFileList.size());
         System.out.println("删除的XML字节数：" + delXMLBytes);
         System.out.println("删除的IMG字节数：" + delIMGBytes);
 
@@ -213,7 +176,6 @@ public class ClearUnUsedResource {
 
     private static void doDelete(File f) {
         codeMap.remove(f.getAbsolutePath());
-        delFileNum++;
         delFileList.add(f);
 
         if (REAL_DEL) {
