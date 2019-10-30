@@ -26,6 +26,13 @@ public class GerritAddReviewerMap {
             String line = null;
             while ((line = reader.readLine()) != null) {
                 System.out.println(line);
+                String[] strings = line.split("\\s");
+                System.out.println("------------------");
+                for(String str : strings) {
+                    System.out.println(str);
+                }
+                System.out.println("------------------");
+
 //                String owner = line. substring();
 //                String reviewer = line.substring();
 //                String url = "http://localhost:8080/gerrit/reviewermap_name?owner=" + owner + "&reviewer=" + reviewer;

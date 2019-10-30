@@ -20,8 +20,7 @@ public class GerritCmd {
 
     public static void main(String[] args) {
         System.out.println("---------------------------------------------------------------" + new Date());
-        new GerritCmd().getCmdResult("ssh -i c:/dementor/id_rsa.unknown -p 29418 dementor@sci.qiyi.domain gerrit stream-events");
-//        new GerritCmd().getCmdResult("ssh -i c:/dementor/id_rsa.unknown -p 29418 dementor@sci.qiyi.domain gerrit stream-events -s comment-added");
+        new GerritCmd().getCmdResult("ssh -i c:/dementor/id_rsa.unknown -p 29418 shisong@xxx.xxx gerrit stream-events -s comment-added");
         System.out.println("---------------------------------------------------------------" + new Date());
     }
 
