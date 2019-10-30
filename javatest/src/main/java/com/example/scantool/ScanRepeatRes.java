@@ -17,7 +17,7 @@ public class ScanRepeatRes {
     private static long TOTAL_NUM = 0;
     private static long IMAGE_NUM = 0;
 
-    private final static String ROOT_DIR = "C:\\Users\\shisong\\Desktop\\res";
+    private final static String ROOT_DIR = "C:\\Users\\shisong\\Desktop\\r";
 
     public static void main(String[] args) throws IOException {
         loadCode();

@@ -5,6 +5,8 @@ import com.example.scantool.codeloader.JarCodeLoader;
 import com.example.scantool.constant.ScanConstant;
 
 import java.io.File;
+import java.io.FileWriter;
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
@@ -16,13 +18,16 @@ public class ClearUnUsedResource extends ScanConstant {
     private final static boolean FULL_LOG = false;// 是否显示具体Log
 
     private final static String[] TO_CLEAR_PROJECTS = {
-            "F:\\qiyi_git\\qiyivideo\\app\\QYVideoClient",
+//            "F:\\qiyi_git\\qiyivideo\\app\\QYVideoClient",
 //            "F:\\qiyi_git\\qiyivideo\\app\\QYBaseClient",
-//            "F:\\qiyi_git\\qiyivideo\\biz\\Page\\QYPage",
+            "F:\\qiyi_git\\qiyivideo\\biz\\QYSearch",
 //            "F:\\qiyi_git\\qiyivideo\\biz\\Player\\VideoPlayer",
 //            "F:\\qiyi_git\\qiyivideo\\biz\\Player\\QYPlayerCardView",
 //            "F:\\qiyi_git\\qiyivideo\\biz\\Download\\DownloadUI",
-//            "F:\\qiyi_git\\qiyivideo\\biz\\Player\\QYPlayerSDK",
+//            "F:\\qiyi_git\\Card\\QYCardV3"
+
+//            "F:\\qiyi_git\\qiyivideo\\biz",
+//            "F:\\qiyi_git\\qiyivideo\\component"
     };
 
     // 保存所有代码，以文件名做key
@@ -33,45 +38,131 @@ public class ClearUnUsedResource extends ScanConstant {
     private static long delXMLBytes = 0;
     private static long delIMGBytes = 0;
 
-    public static void main(String[] args) {
-        // 加载所有代码到内存中
-        loadCodeInModules();
+    public static void main(String[] args) throws IOException {
+//        scanAll(new File("F:\\qiyi_git\\qiyivideo\\component"));
+//        scanAll(new File("F:\\qiyi_git\\qiyivideo\\biz"));
+        scanOne();
+    }
 
-        int lastDelFiles;
-        int count = 1;
-        while (true) {
-            lastDelFiles = delFileList.size();
-            if (!REAL_DEL) {
-                delFileList.clear();
-                delXMLBytes = 0;
-                delIMGBytes = 0;
+    private static void scanAll(File rootDir) throws IOException {
+        for (File file : rootDir.listFiles()) {
+            if (!file.isDirectory()) {
+                continue;
             }
 
-            for (String p : TO_CLEAR_PROJECTS) {
-                File f = new File(p + "/src");
-                delUnusedFile(f);
-                f = new File(p + "/res");
-                delUnusedFile(f);
+            if (!isModuleDir(file)) {
+                scanAll(file);
+                continue;
             }
 
-            System.out.println(count++ +"轮删除文件数：" + delFileList.size());
-            if (delFileList.size() == 0 || delFileList.size() == lastDelFiles) {
-                break;
+            codeMap.clear();
+            totalBytes = 0;
+            loadCodeInModules(ROOT_DIR);
+            loadCodeInModules(CARD_ROOT_DIR);
+            System.out.println("初始文件总数：" + codeMap.size());
+            System.out.println("代码字节数：" + totalBytes);
+
+            int lastDelFiles;
+            int count = 1;
+
+            File srcDir = new File(file, "/src");
+            File desDir = new File(file, "/res");
+            while (true) {
+                lastDelFiles = delFileList.size();
+                if (!REAL_DEL) {
+                    delFileList.clear();
+                    delXMLBytes = 0;
+                    delIMGBytes = 0;
+                }
+
+                delUnusedFile(srcDir);
+                delUnusedFile(desDir);
+
+                System.out.println("\n" + count++ + "轮删除文件数：" + delFileList.size());
+                if (delFileList.size() == 0 || delFileList.size() == lastDelFiles) {
+                    break;
+                }
+            }
+
+            System.out.println("=============================");
+            if (delFileList.size() > 0) {
+                File outputFile = new File("C:\\Users\\shisong\\Desktop\\scan_output\\" + file.getName() + ".txt");
+                outputFile.createNewFile();
+                FileWriter fileWriter = new FileWriter(outputFile);
+                System.out.println("最终删除文件数：" + delFileList.size());
+                fileWriter.write("最终删除文件数：" + delFileList.size());
+                fileWriter.write("\n");
+
+                System.out.println("删除的XML字节数：" + delXMLBytes);
+                fileWriter.write("删除的XML字节数：" + delXMLBytes);
+                fileWriter.write("\n");
+
+                System.out.println("删除的IMG字节数：" + delIMGBytes);
+                fileWriter.write("删除的IMG字节数：" + delIMGBytes);
+                fileWriter.write("\n");
+
+                GitCmd.outputWithGitInfo(delFileList, fileWriter);
+                fileWriter.close();
             }
         }
+    }
 
-        System.out.println("=============================");
-        System.out.println("最终删除文件数：" + delFileList.size());
-        System.out.println("删除的XML字节数：" + delXMLBytes);
-        System.out.println("删除的IMG字节数：" + delIMGBytes);
+    private static void scanOne() throws IOException {
+        for (String scanModulePath : TO_CLEAR_PROJECTS) {
+            codeMap.clear();
+            totalBytes = 0;
+            loadCodeInModules(ROOT_DIR);
+            loadCodeInModules(CARD_ROOT_DIR);
+            System.out.println("初始文件总数：" + codeMap.size());
+            System.out.println("代码字节数：" + totalBytes);
 
-        GitCmd.outputWithGitInfo(delFileList);
+            int lastDelFiles;
+            int count = 1;
+
+            File dir = new File(scanModulePath);
+            File srcDir = new File(scanModulePath + "/src");
+            File desDir = new File(scanModulePath + "/res");
+            while (true) {
+                lastDelFiles = delFileList.size();
+                if (!REAL_DEL) {
+                    delFileList.clear();
+                    delXMLBytes = 0;
+                    delIMGBytes = 0;
+                }
+
+                delUnusedFile(srcDir);
+                delUnusedFile(desDir);
+
+                System.out.println("\n" + count++ + "轮删除文件数：" + delFileList.size());
+                if (delFileList.size() == 0 || delFileList.size() == lastDelFiles) {
+                    break;
+                }
+            }
+
+            System.out.println("=============================");
+            File outputFile = new File("C:\\Users\\shisong\\Desktop\\scan_output\\" + dir.getName() + ".txt");
+            outputFile.createNewFile();
+            FileWriter fileWriter = new FileWriter(outputFile);
+            System.out.println("最终删除文件数：" + delFileList.size());
+            fileWriter.write("最终删除文件数：" + delFileList.size());
+            fileWriter.write("\n");
+
+            System.out.println("删除的XML字节数：" + delXMLBytes);
+            fileWriter.write("删除的XML字节数：" + delXMLBytes);
+            fileWriter.write("\n");
+
+            System.out.println("删除的IMG字节数：" + delIMGBytes);
+            fileWriter.write("删除的IMG字节数：" + delIMGBytes);
+            fileWriter.write("\n");
+
+            GitCmd.outputWithGitInfo(delFileList, fileWriter);
+            fileWriter.close();
+        }
     }
 
     // 加载所有代码（包括xml和java）
-    private static void loadCodeInModules() {
-        codeMap.clear();
-        File root = new File(ROOT_DIR);
+    private static void loadCodeInModules(String rootDir) {
+        File root = new File(rootDir);
         for (File project : root.listFiles()) {
             if (project == null || project.isFile()) {
                 continue;
@@ -88,23 +179,14 @@ public class ClearUnUsedResource extends ScanConstant {
             }
             loadDirs(project);
         }
-        System.out.println("初始文件总数：" + codeMap.size());
-        System.out.println("代码字节数：" + totalBytes);
     }
 
     private static void loadDirs(File moduleDir) {
         if (!moduleDir.isDirectory()) {
             return;
         }
-        boolean isModule = false;
-        for (File file : moduleDir.listFiles()) {
-            if (file.getName().endsWith("build.gradle")) {
-                isModule = true;
-                break;
-            }
-        }
 
-        if (isModule) {
+        if (isModuleDir(moduleDir)) {
             loadModule(moduleDir);
         } else {
             for (File file : moduleDir.listFiles()) {
@@ -176,9 +258,14 @@ public class ClearUnUsedResource extends ScanConstant {
     private static void doDelete(File f) {
         codeMap.remove(f.getAbsolutePath());
         delFileList.add(f);
-
         if (REAL_DEL) {
             f.delete();
+        }
+
+        if (delFileList.size() % 100 == 0) {
+            System.out.println("=");
+        } else {
+            System.out.print("=");
         }
     }
 

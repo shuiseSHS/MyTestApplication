@@ -1,5 +1,7 @@
 package com.example.scantool.constant;
 
+import java.io.File;
+
 /**
  * Created by shisong on 2019/6/6
  */
@@ -15,6 +17,7 @@ public class ScanConstant {
     };
 
     public final static String ROOT_DIR = "F:/qiyi_git/qiyivideo/";
+    public final static String CARD_ROOT_DIR = "F:/qiyi_git/Card/";
 
     public final static String[] EXCLUDE_DIR = {
             ".git",
@@ -32,5 +35,19 @@ public class ScanConstant {
             "android_support",
             "appstore"
     };
+
+    public static boolean isModuleDir(File moduleDir) {
+        if (!moduleDir.isDirectory()) {
+            return false;
+        }
+        boolean isModule = false;
+        for (File file : moduleDir.listFiles()) {
+            if (file.getName().endsWith("build.gradle") || file.getName().endsWith(moduleDir.getName() + ".gradle")) {
+                isModule = true;
+                break;
+            }
+        }
+        return isModule;
+    }
 
 }

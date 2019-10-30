@@ -1,9 +1,18 @@
 apply plugin: 'java'
 
+repositories {
+    maven {
+        url 'http://maven.mbd.qiyi.domain/nexus/content/repositories/mbd-android/'
+    }
+    mavenCentral()
+}
+
 dependencies {
-    compile 'io.reactivex:rxjava:1.1.6'
-    compile 'com.squareup.okio:okio:1.10.0'
-    compile 'com.squareup.okhttp3:okhttp:3.4.1'
+    implementation 'com.iqiyi.build.codescan:codescan:1.0.5'
+    implementation 'com.google.code.gson:gson:2.8.6'
+    implementation 'io.reactivex:rxjava:1.1.6'
+    implementation 'com.squareup.okio:okio:2.2.2'
+    implementation 'com.squareup.okhttp3:okhttp:4.1.0'
     compile files('libs/jsoup-1.10.1.jar')
 }
 

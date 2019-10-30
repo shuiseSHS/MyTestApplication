@@ -2,6 +2,8 @@ package com.example.scantool;
 
 import java.io.BufferedReader;
 import java.io.File;
+import java.io.FileWriter;
+import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -22,7 +24,7 @@ public class GitCmd {
         System.out.println("----" + name);
     }
 
-    public static void outputWithGitInfo(List<File> delFileList) {
+    public static void outputWithGitInfo(List<File> delFileList, FileWriter fileWriter) throws IOException {
         Map<String, List<File>> userFiles = new HashMap<>();
         int column = 0;
         for (File file : delFileList) {
@@ -36,6 +38,7 @@ public class GitCmd {
                 userFiles.put(user, files);
             }
             if (++column == 100) {
+                column = 0;
                 System.out.println("=");
             } else {
                 System.out.print("=");
@@ -46,7 +49,9 @@ public class GitCmd {
         for (String user : userFiles.keySet()) {
             List<File> files = userFiles.get(user);
             for (File file : files) {
-                System.out.println(user + "-----" + file.getAbsolutePath().substring(12));
+                String info = user + "-----" + file.getAbsolutePath().substring(12) + "\n";
+                System.out.print(info);
+                fileWriter.write(info);
             }
         }
     }
